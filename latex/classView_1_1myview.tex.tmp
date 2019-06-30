@@ -1,0 +1,75 @@
+\hypertarget{classView_1_1myview}{}\section{View.\+myview Class Reference}
+\label{classView_1_1myview}\index{View.myview@{View.myview}}
+
+
+Class myview \+: allow us to override functions from Q\+Graphics\+View, for zoom, background and grid.  
+
+
+
+
+Inheritance diagram for View.\+myview\+:
+% FIG 0
+
+
+Collaboration diagram for View.\+myview\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classView_1_1myview_af5a6b34a86259987ce1824ef4c0b5082}\label{classView_1_1myview_af5a6b34a86259987ce1824ef4c0b5082}} 
+def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+} (self, Drawer, gridactivate=False)
+\item 
+\mbox{\Hypertarget{classView_1_1myview_a8722da7b05d175e5beb814b8362f757f}\label{classView_1_1myview_a8722da7b05d175e5beb814b8362f757f}} 
+def \mbox{\hyperlink{classView_1_1myview_a8722da7b05d175e5beb814b8362f757f}{draw\+Background}} (self, painter, rect)
+\begin{DoxyCompactList}\small\item\em Draws he grid. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classView_1_1myview_a26593497d675ca8cc5b13d412c3b24f1}{wheel\+Event}} (self, event)
+\begin{DoxyCompactList}\small\item\em Manage the mouse wheel. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classView_1_1myview_a46b277d34be3023be14003784b7459b9}\label{classView_1_1myview_a46b277d34be3023be14003784b7459b9}} 
+def \mbox{\hyperlink{classView_1_1myview_a46b277d34be3023be14003784b7459b9}{set\+Grid}} (self, gridactivate)
+\begin{DoxyCompactList}\small\item\em Toogle the grid. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classView_1_1myview_ae1db671329df7aac3d59639de42d8447}\label{classView_1_1myview_ae1db671329df7aac3d59639de42d8447}} 
+{\bfseries drawer}
+\item 
+\mbox{\Hypertarget{classView_1_1myview_a5b2e3b5ccdf23ee3099ecc9b26673937}\label{classView_1_1myview_a5b2e3b5ccdf23ee3099ecc9b26673937}} 
+{\bfseries width}
+\item 
+\mbox{\Hypertarget{classView_1_1myview_aab9711dadb0af30f912ee2914ee86325}\label{classView_1_1myview_aab9711dadb0af30f912ee2914ee86325}} 
+{\bfseries height}
+\item 
+\mbox{\Hypertarget{classView_1_1myview_ace07c4c7ef2e2359ba19a328f162cd41}\label{classView_1_1myview_ace07c4c7ef2e2359ba19a328f162cd41}} 
+{\bfseries grid}
+\item 
+\mbox{\Hypertarget{classView_1_1myview_a556d86138f3073b3489b5e11fd533162}\label{classView_1_1myview_a556d86138f3073b3489b5e11fd533162}} 
+{\bfseries view\+\_\+menu}
+\item 
+\mbox{\Hypertarget{classView_1_1myview_ab41b6669764b95f16699d14977d2513b}\label{classView_1_1myview_ab41b6669764b95f16699d14977d2513b}} 
+{\bfseries zoom}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class myview \+: allow us to override functions from Q\+Graphics\+View, for zoom, background and grid. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classView_1_1myview_a26593497d675ca8cc5b13d412c3b24f1}\label{classView_1_1myview_a26593497d675ca8cc5b13d412c3b24f1}} 
+\index{View.myview@{View.myview}!wheelEvent@{wheelEvent}}
+\index{wheelEvent@{wheelEvent}!View.myview@{View.myview}}
+\subsubsection{\texorpdfstring{wheelEvent()}{wheelEvent()}}
+{\footnotesize\ttfamily def View.\+myview.\+wheel\+Event (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{event }\end{DoxyParamCaption})}
+
+
+
+Manage the mouse wheel. 
+
+\begin{DoxyVerb}We can zoom in/ zoom out the GraphicsView by using wheelButton of the mouse.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Class/View.\+py\end{DoxyCompactItemize}

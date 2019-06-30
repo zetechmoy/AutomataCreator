@@ -1,0 +1,253 @@
+\hypertarget{classPopulation_1_1Population}{}\section{Population.\+Population Class Reference}
+\label{classPopulation_1_1Population}\index{Population.Population@{Population.Population}}
+
+
+This class modelizes an automata and is used in the genetic algorithm.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classPopulation_1_1Population_a19326623f1e5aac6d2a6b6558d39f9e2}\label{classPopulation_1_1Population_a19326623f1e5aac6d2a6b6558d39f9e2}} 
+def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+} (self, id, drawer)
+\item 
+def \mbox{\hyperlink{classPopulation_1_1Population_a8c399aa1a35a6a1381bbe9027c6ed289}{add\+Real\+State}} (self, state)
+\begin{DoxyCompactList}\small\item\em Add a real state to this population. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classPopulation_1_1Population_abac8ca83fe88481ceac9b60f20e21df3}{add\+State}} (self, x, y, id)
+\begin{DoxyCompactList}\small\item\em Add a modelized state to this population. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classPopulation_1_1Population_aa68445393621fc0ec8713f533c959d02}{add\+Real\+Transition}} (self, trans)
+\begin{DoxyCompactList}\small\item\em Add a real transition to this population. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classPopulation_1_1Population_a21503345e1235d9fe7fbb29331f2b1a5}{add\+Transtion}} (self, id, id\+\_\+src, id\+\_\+dest, inflection\+\_\+dx, inflection\+\_\+dy)
+\begin{DoxyCompactList}\small\item\em Add a modelized transition to this population. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classPopulation_1_1Population_a4cc44224df33f24169a98661748e7fca}{export\+\_\+pop}} (self)
+\begin{DoxyCompactList}\small\item\em Load a population into our program. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classPopulation_1_1Population_a86a6820d2ac05095a9b9cef2ec60e533}{calc\+\_\+score}} (self)
+\begin{DoxyCompactList}\small\item\em Score calculation method. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classPopulation_1_1Population_abc84fe3de4076d70b62cda01207eb0bb}{gen\+\_\+random\+\_\+pop}} (self, popid)
+\begin{DoxyCompactList}\small\item\em Generate a fully random population based on this population. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classPopulation_1_1Population_a272d86ca139afe3150dff771d71cfea7}{croisements\+\_\+mutations}} (self, other\+\_\+pop, id)
+\begin{DoxyCompactList}\small\item\em Generate a new population based on himself and another population. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classPopulation_1_1Population_ac97f6af1eb7b996b529bbb00cb56f147}{get\+Id}} (self)
+\begin{DoxyCompactList}\small\item\em Returns Id of this \mbox{\hyperlink{classPopulation_1_1Population}{Population}}. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classPopulation_1_1Population_a69e191c3b2aa8d415858bc358658d31f}{get\+State}} (self, id)
+\begin{DoxyCompactList}\small\item\em Returns a list of modelized state in this \mbox{\hyperlink{classPopulation_1_1Population}{Population}}. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classPopulation_1_1Population_a03c2737cca878a0929f5a183fe6e5106}{get\+Transitions}} (self, id)
+\begin{DoxyCompactList}\small\item\em Returns a list of modelized transition in this \mbox{\hyperlink{classPopulation_1_1Population}{Population}}. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classPopulation_1_1Population_a19c0905329170d9cadec9b7b6ed04c4c}{get\+Score}} (self)
+\begin{DoxyCompactList}\small\item\em Returns this \mbox{\hyperlink{classPopulation_1_1Population}{Population}}\textquotesingle{}s score. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classPopulation_1_1Population_ab29c6819121e87b71410b52c822df985}\label{classPopulation_1_1Population_ab29c6819121e87b71410b52c822df985}} 
+{\bfseries id}
+\item 
+\mbox{\Hypertarget{classPopulation_1_1Population_a0b83d062dfe237329d27ee1dea3bc731}\label{classPopulation_1_1Population_a0b83d062dfe237329d27ee1dea3bc731}} 
+{\bfseries states}
+\item 
+\mbox{\Hypertarget{classPopulation_1_1Population_ad130501ec81092217e3d089af7c7350c}\label{classPopulation_1_1Population_ad130501ec81092217e3d089af7c7350c}} 
+{\bfseries transitions}
+\item 
+\mbox{\Hypertarget{classPopulation_1_1Population_a393ef2a9bec6f96f54a2713c3f09314a}\label{classPopulation_1_1Population_a393ef2a9bec6f96f54a2713c3f09314a}} 
+{\bfseries score}
+\item 
+\mbox{\Hypertarget{classPopulation_1_1Population_a05bbbe452ca0870bc3408837f0993ec5}\label{classPopulation_1_1Population_a05bbbe452ca0870bc3408837f0993ec5}} 
+{\bfseries drawer}
+\item 
+\mbox{\Hypertarget{classPopulation_1_1Population_a1e1683d7a6c1f468f07a1a9114aaa3dc}\label{classPopulation_1_1Population_a1e1683d7a6c1f468f07a1a9114aaa3dc}} 
+{\bfseries uptodate}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class modelizes an automata and is used in the genetic algorithm. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classPopulation_1_1Population_a8c399aa1a35a6a1381bbe9027c6ed289}\label{classPopulation_1_1Population_a8c399aa1a35a6a1381bbe9027c6ed289}} 
+\index{Population.Population@{Population.Population}!addRealState@{addRealState}}
+\index{addRealState@{addRealState}!Population.Population@{Population.Population}}
+\subsubsection{\texorpdfstring{addRealState()}{addRealState()}}
+{\footnotesize\ttfamily def Population.\+Population.\+add\+Real\+State (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{state }\end{DoxyParamCaption})}
+
+
+
+Add a real state to this population. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em state} & State A real state. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPopulation_1_1Population_aa68445393621fc0ec8713f533c959d02}\label{classPopulation_1_1Population_aa68445393621fc0ec8713f533c959d02}} 
+\index{Population.Population@{Population.Population}!addRealTransition@{addRealTransition}}
+\index{addRealTransition@{addRealTransition}!Population.Population@{Population.Population}}
+\subsubsection{\texorpdfstring{addRealTransition()}{addRealTransition()}}
+{\footnotesize\ttfamily def Population.\+Population.\+add\+Real\+Transition (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{trans }\end{DoxyParamCaption})}
+
+
+
+Add a real transition to this population. 
+
+You should have added every State involved before adding Transitions. 
+\begin{DoxyParams}{Parameters}
+{\em trans} & Transition A real transition \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPopulation_1_1Population_abac8ca83fe88481ceac9b60f20e21df3}\label{classPopulation_1_1Population_abac8ca83fe88481ceac9b60f20e21df3}} 
+\index{Population.Population@{Population.Population}!addState@{addState}}
+\index{addState@{addState}!Population.Population@{Population.Population}}
+\subsubsection{\texorpdfstring{addState()}{addState()}}
+{\footnotesize\ttfamily def Population.\+Population.\+add\+State (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{x,  }\item[{}]{y,  }\item[{}]{id }\end{DoxyParamCaption})}
+
+
+
+Add a modelized state to this population. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & int State ID. \\
+\hline
+{\em x} & int x coordinates. \\
+\hline
+{\em y} & int y coordinates. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPopulation_1_1Population_a21503345e1235d9fe7fbb29331f2b1a5}\label{classPopulation_1_1Population_a21503345e1235d9fe7fbb29331f2b1a5}} 
+\index{Population.Population@{Population.Population}!addTranstion@{addTranstion}}
+\index{addTranstion@{addTranstion}!Population.Population@{Population.Population}}
+\subsubsection{\texorpdfstring{addTranstion()}{addTranstion()}}
+{\footnotesize\ttfamily def Population.\+Population.\+add\+Transtion (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{id,  }\item[{}]{id\+\_\+src,  }\item[{}]{id\+\_\+dest,  }\item[{}]{inflection\+\_\+dx,  }\item[{}]{inflection\+\_\+dy }\end{DoxyParamCaption})}
+
+
+
+Add a modelized transition to this population. 
+
+You should have added every State involved before adding Transitions. 
+\begin{DoxyParams}{Parameters}
+{\em id} & int Transition ID. \\
+\hline
+{\em id\+\_\+src} & int Source state id. \\
+\hline
+{\em id\+\_\+dest} & int Destination state id. \\
+\hline
+{\em inflection\+\_\+dx} & int Inflection dx. \\
+\hline
+{\em inflection\+\_\+dy} & int Inflection dy. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPopulation_1_1Population_a86a6820d2ac05095a9b9cef2ec60e533}\label{classPopulation_1_1Population_a86a6820d2ac05095a9b9cef2ec60e533}} 
+\index{Population.Population@{Population.Population}!calc\_score@{calc\_score}}
+\index{calc\_score@{calc\_score}!Population.Population@{Population.Population}}
+\subsubsection{\texorpdfstring{calc\_score()}{calc\_score()}}
+{\footnotesize\ttfamily def Population.\+Population.\+calc\+\_\+score (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Score calculation method. 
+
+This method generate a score based on collision\textquotesingle{}s quantity. This method will also test if transitions are better straight or the way they are and set them accordingly. \mbox{\Hypertarget{classPopulation_1_1Population_a272d86ca139afe3150dff771d71cfea7}\label{classPopulation_1_1Population_a272d86ca139afe3150dff771d71cfea7}} 
+\index{Population.Population@{Population.Population}!croisements\_mutations@{croisements\_mutations}}
+\index{croisements\_mutations@{croisements\_mutations}!Population.Population@{Population.Population}}
+\subsubsection{\texorpdfstring{croisements\_mutations()}{croisements\_mutations()}}
+{\footnotesize\ttfamily def Population.\+Population.\+croisements\+\_\+mutations (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{other\+\_\+pop,  }\item[{}]{id }\end{DoxyParamCaption})}
+
+
+
+Generate a new population based on himself and another population. 
+
+It also randomly introduce some mutations. 
+\begin{DoxyParams}{Parameters}
+{\em other\+\_\+pop} & \mbox{\hyperlink{classPopulation_1_1Population}{Population}} The other population used to generate. \\
+\hline
+{\em id} & int Id of the population to generate. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The generated population. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPopulation_1_1Population_a4cc44224df33f24169a98661748e7fca}\label{classPopulation_1_1Population_a4cc44224df33f24169a98661748e7fca}} 
+\index{Population.Population@{Population.Population}!export\_pop@{export\_pop}}
+\index{export\_pop@{export\_pop}!Population.Population@{Population.Population}}
+\subsubsection{\texorpdfstring{export\_pop()}{export\_pop()}}
+{\footnotesize\ttfamily def Population.\+Population.\+export\+\_\+pop (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Load a population into our program. 
+
+This will not work if you deleted a state or a transition in the program. \mbox{\Hypertarget{classPopulation_1_1Population_abc84fe3de4076d70b62cda01207eb0bb}\label{classPopulation_1_1Population_abc84fe3de4076d70b62cda01207eb0bb}} 
+\index{Population.Population@{Population.Population}!gen\_random\_pop@{gen\_random\_pop}}
+\index{gen\_random\_pop@{gen\_random\_pop}!Population.Population@{Population.Population}}
+\subsubsection{\texorpdfstring{gen\_random\_pop()}{gen\_random\_pop()}}
+{\footnotesize\ttfamily def Population.\+Population.\+gen\+\_\+random\+\_\+pop (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{popid }\end{DoxyParamCaption})}
+
+
+
+Generate a fully random population based on this population. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em popid} & int Id of the population to generate. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The generated population. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPopulation_1_1Population_ac97f6af1eb7b996b529bbb00cb56f147}\label{classPopulation_1_1Population_ac97f6af1eb7b996b529bbb00cb56f147}} 
+\index{Population.Population@{Population.Population}!getId@{getId}}
+\index{getId@{getId}!Population.Population@{Population.Population}}
+\subsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily def Population.\+Population.\+get\+Id (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Returns Id of this \mbox{\hyperlink{classPopulation_1_1Population}{Population}}. 
+
+\begin{DoxyReturn}{Returns}
+id 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPopulation_1_1Population_a19c0905329170d9cadec9b7b6ed04c4c}\label{classPopulation_1_1Population_a19c0905329170d9cadec9b7b6ed04c4c}} 
+\index{Population.Population@{Population.Population}!getScore@{getScore}}
+\index{getScore@{getScore}!Population.Population@{Population.Population}}
+\subsubsection{\texorpdfstring{getScore()}{getScore()}}
+{\footnotesize\ttfamily def Population.\+Population.\+get\+Score (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Returns this \mbox{\hyperlink{classPopulation_1_1Population}{Population}}\textquotesingle{}s score. 
+
+If it has not been calculated, it calls self.\+calc\+\_\+score(). \begin{DoxyReturn}{Returns}
+int score 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPopulation_1_1Population_a69e191c3b2aa8d415858bc358658d31f}\label{classPopulation_1_1Population_a69e191c3b2aa8d415858bc358658d31f}} 
+\index{Population.Population@{Population.Population}!getState@{getState}}
+\index{getState@{getState}!Population.Population@{Population.Population}}
+\subsubsection{\texorpdfstring{getState()}{getState()}}
+{\footnotesize\ttfamily def Population.\+Population.\+get\+State (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{id }\end{DoxyParamCaption})}
+
+
+
+Returns a list of modelized state in this \mbox{\hyperlink{classPopulation_1_1Population}{Population}}. 
+
+\begin{DoxyReturn}{Returns}
+modelized states list 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPopulation_1_1Population_a03c2737cca878a0929f5a183fe6e5106}\label{classPopulation_1_1Population_a03c2737cca878a0929f5a183fe6e5106}} 
+\index{Population.Population@{Population.Population}!getTransitions@{getTransitions}}
+\index{getTransitions@{getTransitions}!Population.Population@{Population.Population}}
+\subsubsection{\texorpdfstring{getTransitions()}{getTransitions()}}
+{\footnotesize\ttfamily def Population.\+Population.\+get\+Transitions (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{id }\end{DoxyParamCaption})}
+
+
+
+Returns a list of modelized transition in this \mbox{\hyperlink{classPopulation_1_1Population}{Population}}. 
+
+\begin{DoxyReturn}{Returns}
+modelized transition list 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Class/Population.\+py\end{DoxyCompactItemize}

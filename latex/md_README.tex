@@ -1,0 +1,53 @@
+Welcome to project O\+Tomate\+Mozarella. Requirements can be found at the end of this document.
+
+Used to preview La\+Tex expressions \+: sympy using Arch\+Linux \+: pip install sympy pacman -\/S texlive-\/most
+
+T\+O\+DO \+:
+\begin{DoxyItemize}
+\item Genetic Algorithm\+:
+\begin{DoxyItemize}
+\item Score calculation need a lot of improvements
+\end{DoxyItemize}
+\item Aimant à la grille
+\item La\+Tex
+\item Permettre de zoomer/dézoomer vers l\textquotesingle{}emplacement du pointeur ????
+\item Update Specifications doc or delete them
+\end{DoxyItemize}
+
+I\+S\+S\+U\+E\+S/\+B\+U\+GS\+:
+\begin{DoxyItemize}
+\item Boucle de transition (transition from a state to himself)
+\item Delete is still broken, but works about 95\% of the time. I don\textquotesingle{}t know how to fix it.
+\item Repositioning initial state + size
+\item We should add an option to disable AI due to heavy lib dependencies and long load time.
+\item Genetic Algorithm\+:
+\begin{DoxyItemize}
+\item problème de désynchro nb\+\_\+pop quand on bourrine.
+\end{DoxyItemize}
+\end{DoxyItemize}
+
+D\+O\+NE \+: Taille des transitions -\/$>$ Done
+
+D\+EV N\+O\+T\+ES \+:
+
+25/01\+: Antonin \+: I modified some behavior about the AI. Now the transitions are automatically set to \char`\"{}\+Straight\char`\"{} and it ignores selected transitions so it\textquotesingle{}s easier to select states.
+
+R\+E\+Q\+U\+I\+R\+E\+M\+E\+N\+TS\+:
+
+
+\begin{DoxyItemize}
+\item Basics \+:
+\begin{DoxyItemize}
+\item Python 3
+\item Py\+Q\+T5
+\item sympy
+\item La\+Tex compiler
+\item Not sure if it\textquotesingle{}s bundled with python but num\+Py is used for random sampling purposes.
+\end{DoxyItemize}
+\item Used by the AI \+:
+\begin{DoxyItemize}
+\item matplotlib
+\item keras ?
+\item tensorflow (available for Windows, Mac\+Os and Ubuntu with pip) /!\textbackslash{} For arch linux -\/$>$ install package python-\/tensorflow with pacman /!\textbackslash{} 
+\end{DoxyItemize}
+\end{DoxyItemize}

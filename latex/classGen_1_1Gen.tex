@@ -1,0 +1,109 @@
+\hypertarget{classGen_1_1Gen}{}\section{Gen.\+Gen Class Reference}
+\label{classGen_1_1Gen}\index{Gen.Gen@{Gen.Gen}}
+
+
+This class manages the Genetic Algorithm and the different populations.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classGen_1_1Gen_a12efc62b7335e2f1dc0650236b633a02}\label{classGen_1_1Gen_a12efc62b7335e2f1dc0650236b633a02}} 
+def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+} (self)
+\item 
+def \mbox{\hyperlink{classGen_1_1Gen_a622c81f69a1c66c602b53c4e129d4ef0}{load}} (self, drawer)
+\begin{DoxyCompactList}\small\item\em Load the actual automata in initial Population. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classGen_1_1Gen_a84990316f7099293e11beb6db22af61a}{generate\+\_\+first\+\_\+pop}} (self)
+\begin{DoxyCompactList}\small\item\em Generate nb\+\_\+initial\+\_\+generations Populations randomly based on the initial population. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classGen_1_1Gen_a01f71de519b17878844ea430a8d7bfea}{best\+Score}} (self)
+\begin{DoxyCompactList}\small\item\em Load the Population with the best\+Score. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classGen_1_1Gen_a1cfc3669f55357cea08509b0ed5cd1bf}{genetic}} (self)
+\begin{DoxyCompactList}\small\item\em Evaluate populations, randomly select the populations meant to survive and make some mutations. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classGen_1_1Gen_ae1833b442b21f180fdc7987536a101d9}{auto\+Position}} (self)
+\begin{DoxyCompactList}\small\item\em This function is the one to call if you want to use this code. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classGen_1_1Gen_a8c0bf8caa42513ebedd81324c39fdd4a}\label{classGen_1_1Gen_a8c0bf8caa42513ebedd81324c39fdd4a}} 
+{\bfseries population\+\_\+initiale}
+\item 
+\mbox{\Hypertarget{classGen_1_1Gen_a2f6b2b61feeb2330482972b065fcb6f6}\label{classGen_1_1Gen_a2f6b2b61feeb2330482972b065fcb6f6}} 
+{\bfseries populations}
+\item 
+\mbox{\Hypertarget{classGen_1_1Gen_a456a577f2e3b3f520b42c5edcf4c7226}\label{classGen_1_1Gen_a456a577f2e3b3f520b42c5edcf4c7226}} 
+{\bfseries nb\+\_\+pop}
+\item 
+\mbox{\Hypertarget{classGen_1_1Gen_ac0bc08a1afe0c8428b7b347832008168}\label{classGen_1_1Gen_ac0bc08a1afe0c8428b7b347832008168}} 
+{\bfseries id}
+\item 
+\mbox{\Hypertarget{classGen_1_1Gen_a8086ec60df1305c4bd523b1951544c29}\label{classGen_1_1Gen_a8086ec60df1305c4bd523b1951544c29}} 
+{\bfseries nb\+\_\+initial\+\_\+generations}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class manages the Genetic Algorithm and the different populations. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classGen_1_1Gen_ae1833b442b21f180fdc7987536a101d9}\label{classGen_1_1Gen_ae1833b442b21f180fdc7987536a101d9}} 
+\index{Gen.Gen@{Gen.Gen}!autoPosition@{autoPosition}}
+\index{autoPosition@{autoPosition}!Gen.Gen@{Gen.Gen}}
+\subsubsection{\texorpdfstring{autoPosition()}{autoPosition()}}
+{\footnotesize\ttfamily def Gen.\+Gen.\+auto\+Position (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+This function is the one to call if you want to use this code. 
+
+You should use \mbox{\hyperlink{classGen_1_1Gen_a622c81f69a1c66c602b53c4e129d4ef0}{load()}} before. It is basically genetic algorithm\textquotesingle{}s manager. \mbox{\Hypertarget{classGen_1_1Gen_a01f71de519b17878844ea430a8d7bfea}\label{classGen_1_1Gen_a01f71de519b17878844ea430a8d7bfea}} 
+\index{Gen.Gen@{Gen.Gen}!bestScore@{bestScore}}
+\index{bestScore@{bestScore}!Gen.Gen@{Gen.Gen}}
+\subsubsection{\texorpdfstring{bestScore()}{bestScore()}}
+{\footnotesize\ttfamily def Gen.\+Gen.\+best\+Score (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Load the Population with the best\+Score. 
+
+\mbox{\Hypertarget{classGen_1_1Gen_a84990316f7099293e11beb6db22af61a}\label{classGen_1_1Gen_a84990316f7099293e11beb6db22af61a}} 
+\index{Gen.Gen@{Gen.Gen}!generate\_first\_pop@{generate\_first\_pop}}
+\index{generate\_first\_pop@{generate\_first\_pop}!Gen.Gen@{Gen.Gen}}
+\subsubsection{\texorpdfstring{generate\_first\_pop()}{generate\_first\_pop()}}
+{\footnotesize\ttfamily def Gen.\+Gen.\+generate\+\_\+first\+\_\+pop (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Generate nb\+\_\+initial\+\_\+generations Populations randomly based on the initial population. 
+
+\mbox{\Hypertarget{classGen_1_1Gen_a1cfc3669f55357cea08509b0ed5cd1bf}\label{classGen_1_1Gen_a1cfc3669f55357cea08509b0ed5cd1bf}} 
+\index{Gen.Gen@{Gen.Gen}!genetic@{genetic}}
+\index{genetic@{genetic}!Gen.Gen@{Gen.Gen}}
+\subsubsection{\texorpdfstring{genetic()}{genetic()}}
+{\footnotesize\ttfamily def Gen.\+Gen.\+genetic (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Evaluate populations, randomly select the populations meant to survive and make some mutations. 
+
+\mbox{\Hypertarget{classGen_1_1Gen_a622c81f69a1c66c602b53c4e129d4ef0}\label{classGen_1_1Gen_a622c81f69a1c66c602b53c4e129d4ef0}} 
+\index{Gen.Gen@{Gen.Gen}!load@{load}}
+\index{load@{load}!Gen.Gen@{Gen.Gen}}
+\subsubsection{\texorpdfstring{load()}{load()}}
+{\footnotesize\ttfamily def Gen.\+Gen.\+load (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{drawer }\end{DoxyParamCaption})}
+
+
+
+Load the actual automata in initial Population. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em drawer} & Drawer The drawer containing the automata. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Class/Gen.\+py\end{DoxyCompactItemize}

@@ -1,0 +1,329 @@
+\hypertarget{classDrawer_1_1Drawer}{}\section{Drawer.\+Drawer Class Reference}
+\label{classDrawer_1_1Drawer}\index{Drawer.Drawer@{Drawer.Drawer}}
+
+
+Class which handle the automata draw.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classDrawer_1_1Drawer_a8460749dc8e1ede0ed7afbcb09dbfacc}\label{classDrawer_1_1Drawer_a8460749dc8e1ede0ed7afbcb09dbfacc}} 
+def \mbox{\hyperlink{classDrawer_1_1Drawer_a8460749dc8e1ede0ed7afbcb09dbfacc}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, scene, painter)
+\begin{DoxyCompactList}\small\item\em Init stuff. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDrawer_1_1Drawer_a1597f1f673efc6adef4ccffa4680f41e}{add\+State}} (self, id=-\/1, label=\char`\"{}\char`\"{}, radius=50, color=(0, 0, 0), background\+\_\+color=(255, 255, 255), contour=\char`\"{}simple\char`\"{}, preview=False, magnet=False, pos=Q\+PointF(0, 0))
+\begin{DoxyCompactList}\small\item\em Add State. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDrawer_1_1Drawer_ad77bf08e11c3d86b7bdd8bc49cfbb0f5}{set\+State\+Label}} (self, label)
+\begin{DoxyCompactList}\small\item\em Set name of selected states. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDrawer_1_1Drawer_a3863b8beea85d01ebc90f997f41d846c}{set\+Radius\+Selected}} (self, radius)
+\begin{DoxyCompactList}\small\item\em Set radius of selected states. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDrawer_1_1Drawer_ab13fe2ceacf1711302f8eb5c36128ce9}\label{classDrawer_1_1Drawer_ab13fe2ceacf1711302f8eb5c36128ce9}} 
+def \mbox{\hyperlink{classDrawer_1_1Drawer_ab13fe2ceacf1711302f8eb5c36128ce9}{set\+Initial\+Selected}} (self)
+\begin{DoxyCompactList}\small\item\em Set to initial the selected items. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDrawer_1_1Drawer_a6d5d2ae95df0cb70996724b3a0051b56}\label{classDrawer_1_1Drawer_a6d5d2ae95df0cb70996724b3a0051b56}} 
+def \mbox{\hyperlink{classDrawer_1_1Drawer_a6d5d2ae95df0cb70996724b3a0051b56}{set\+Final\+Selected}} (self)
+\begin{DoxyCompactList}\small\item\em Set to final the selected items. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDrawer_1_1Drawer_a5b02a252ca0b197521b51a25302d0004}\label{classDrawer_1_1Drawer_a5b02a252ca0b197521b51a25302d0004}} 
+def \mbox{\hyperlink{classDrawer_1_1Drawer_a5b02a252ca0b197521b51a25302d0004}{delete\+Selected}} (self)
+\begin{DoxyCompactList}\small\item\em Delete selected items. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDrawer_1_1Drawer_ac7bd0a70f3717fd40ff6b9360c1ff51d}{del\+State}} (self, state)
+\begin{DoxyCompactList}\small\item\em Delete a state. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDrawer_1_1Drawer_a6b36ec97121b8576eef08fb7430882a8}{del\+Transition}} (self, transition)
+\begin{DoxyCompactList}\small\item\em Delete a transition. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDrawer_1_1Drawer_aae2516d8db8154b1ec4a2396de573429}{add\+Transition}} (self, n1, n2, id=-\/1, label=\char`\"{}\char`\"{}, color=(0, 0, 0), height=0, preview=False, dx=0, dy=0)
+\begin{DoxyCompactList}\small\item\em Add a transition between n1 and n2. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDrawer_1_1Drawer_ad41b61b6b2e32945584b155d4de7d571}\label{classDrawer_1_1Drawer_ad41b61b6b2e32945584b155d4de7d571}} 
+def \mbox{\hyperlink{classDrawer_1_1Drawer_ad41b61b6b2e32945584b155d4de7d571}{straight\+Selected}} (self)
+\begin{DoxyCompactList}\small\item\em Set to straight selected transition. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDrawer_1_1Drawer_a87d94e386bcf89fe98a65b3859126aa8}\label{classDrawer_1_1Drawer_a87d94e386bcf89fe98a65b3859126aa8}} 
+def \mbox{\hyperlink{classDrawer_1_1Drawer_a87d94e386bcf89fe98a65b3859126aa8}{auto\+Position}} (self)
+\begin{DoxyCompactList}\small\item\em Call for the Genetic Algorithm. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDrawer_1_1Drawer_ac487d0cbf8b206c1a4405a2e1da26526}{clears}} (self)
+\begin{DoxyCompactList}\small\item\em Remove all states and transitions from this drawer and his scene. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDrawer_1_1Drawer_ad2f169528e41121dbe082bc62148bbd4}{save}} (self, output\+\_\+file\+\_\+name, verbose=False)
+\begin{DoxyCompactList}\small\item\em Save the current automata. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDrawer_1_1Drawer_ab0563a671a284efd8f55bb70a883fd4c}{load}} (self, input\+\_\+file\+\_\+name)
+\begin{DoxyCompactList}\small\item\em Load a model from a .otmt file. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDrawer_1_1Drawer_a5696840acedb9b49be0d29a825c390ac}\label{classDrawer_1_1Drawer_a5696840acedb9b49be0d29a825c390ac}} 
+def \mbox{\hyperlink{classDrawer_1_1Drawer_a5696840acedb9b49be0d29a825c390ac}{export}} (self, output\+\_\+file\+\_\+name)
+\begin{DoxyCompactList}\small\item\em Export the current automata to La\+TeX. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDrawer_1_1Drawer_aec0fcb955a455d1275923b0d9ffb99ec}{set\+Label}} (self, label)
+\begin{DoxyCompactList}\small\item\em Set name of the current automata Project. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDrawer_1_1Drawer_ae82fe427271c51c470cbe1ec9dfd17ce}\label{classDrawer_1_1Drawer_ae82fe427271c51c470cbe1ec9dfd17ce}} 
+def \mbox{\hyperlink{classDrawer_1_1Drawer_ae82fe427271c51c470cbe1ec9dfd17ce}{reset}} (self)
+\begin{DoxyCompactList}\small\item\em Reset the automata. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDrawer_1_1Drawer_a80e742a1ca3ac0eb44f8f0ce5168a135}{get\+States}} (self)
+\begin{DoxyCompactList}\small\item\em What about having all states of the Project ? \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDrawer_1_1Drawer_a84e894687f80eef391d57a1aeb14ad74}{get\+Transitions}} (self)
+\begin{DoxyCompactList}\small\item\em What about having all transitions of the Project ? \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDrawer_1_1Drawer_a119134dd7e54c088d8fdcf33efa22cd1}\label{classDrawer_1_1Drawer_a119134dd7e54c088d8fdcf33efa22cd1}} 
+def \mbox{\hyperlink{classDrawer_1_1Drawer_a119134dd7e54c088d8fdcf33efa22cd1}{show\+Infos}} (self)
+\begin{DoxyCompactList}\small\item\em Show infos of the current automata. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDrawer_1_1Drawer_a74b2a2a79aec07a42f1e3ef3b517e82a}\label{classDrawer_1_1Drawer_a74b2a2a79aec07a42f1e3ef3b517e82a}} 
+def \mbox{\hyperlink{classDrawer_1_1Drawer_a74b2a2a79aec07a42f1e3ef3b517e82a}{get\+Number\+State}} (self)
+\begin{DoxyCompactList}\small\item\em Get number of states. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDrawer_1_1Drawer_a25193cdc8d6c08da73bac711e1bbdd8a}{ai\+Align\+States}} (self, states)
+\begin{DoxyCompactList}\small\item\em Call for the Automatic Replacement with Moz\+IA. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDrawer_1_1Drawer_a6d0baf0bf280f0cbfc42e7fc8d57cadb}{get\+Scene}} (self)
+\begin{DoxyCompactList}\small\item\em Get the current scene. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classDrawer_1_1Drawer_a916aee0d86a00cf2640114b3ff92008d}\label{classDrawer_1_1Drawer_a916aee0d86a00cf2640114b3ff92008d}} 
+{\bfseries label}
+\item 
+\mbox{\Hypertarget{classDrawer_1_1Drawer_ab566937de2c8bf59a04e5e17392bd1c2}\label{classDrawer_1_1Drawer_ab566937de2c8bf59a04e5e17392bd1c2}} 
+{\bfseries zoom}
+\item 
+\mbox{\Hypertarget{classDrawer_1_1Drawer_a60ca34486914df9e8a0536d005617f3f}\label{classDrawer_1_1Drawer_a60ca34486914df9e8a0536d005617f3f}} 
+{\bfseries states}
+\item 
+\mbox{\Hypertarget{classDrawer_1_1Drawer_ab424b1920ae602d7ec62992762c4f49e}\label{classDrawer_1_1Drawer_ab424b1920ae602d7ec62992762c4f49e}} 
+{\bfseries transitions}
+\item 
+\mbox{\Hypertarget{classDrawer_1_1Drawer_a4bf99b85c4b3d4baffec4ca6d193253f}\label{classDrawer_1_1Drawer_a4bf99b85c4b3d4baffec4ca6d193253f}} 
+{\bfseries manager}
+\item 
+\mbox{\Hypertarget{classDrawer_1_1Drawer_a7092453ee80a975b6b01f8cf5fff5b0a}\label{classDrawer_1_1Drawer_a7092453ee80a975b6b01f8cf5fff5b0a}} 
+{\bfseries ids}
+\item 
+\mbox{\Hypertarget{classDrawer_1_1Drawer_af0671395c59c243fece48371928f55db}\label{classDrawer_1_1Drawer_af0671395c59c243fece48371928f55db}} 
+{\bfseries idt}
+\item 
+\mbox{\Hypertarget{classDrawer_1_1Drawer_a4caba286c57b598fa1be5dbaf0a8f0a4}\label{classDrawer_1_1Drawer_a4caba286c57b598fa1be5dbaf0a8f0a4}} 
+{\bfseries scene}
+\item 
+\mbox{\Hypertarget{classDrawer_1_1Drawer_a6ed27ed628c8d1ff5d0a104e01ba732e}\label{classDrawer_1_1Drawer_a6ed27ed628c8d1ff5d0a104e01ba732e}} 
+{\bfseries painter}
+\item 
+\mbox{\Hypertarget{classDrawer_1_1Drawer_ae85536460c2dea12b94b63b863b416a9}\label{classDrawer_1_1Drawer_ae85536460c2dea12b94b63b863b416a9}} 
+{\bfseries score}
+\item 
+\mbox{\Hypertarget{classDrawer_1_1Drawer_a7c5a0b52134a860bbd5f09255d497c54}\label{classDrawer_1_1Drawer_a7c5a0b52134a860bbd5f09255d497c54}} 
+{\bfseries mozia}
+\item 
+\mbox{\Hypertarget{classDrawer_1_1Drawer_adc8f10a68468794857f0c07d4c6e663e}\label{classDrawer_1_1Drawer_adc8f10a68468794857f0c07d4c6e663e}} 
+{\bfseries vect}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class which handle the automata draw. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classDrawer_1_1Drawer_a1597f1f673efc6adef4ccffa4680f41e}\label{classDrawer_1_1Drawer_a1597f1f673efc6adef4ccffa4680f41e}} 
+\index{Drawer.Drawer@{Drawer.Drawer}!addState@{addState}}
+\index{addState@{addState}!Drawer.Drawer@{Drawer.Drawer}}
+\subsubsection{\texorpdfstring{addState()}{addState()}}
+{\footnotesize\ttfamily def Drawer.\+Drawer.\+add\+State (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{id = {\ttfamily -\/1},  }\item[{}]{label = {\ttfamily \char`\"{}\char`\"{}},  }\item[{}]{radius = {\ttfamily 50},  }\item[{}]{color = {\ttfamily (0,~0,~0)},  }\item[{}]{background\+\_\+color = {\ttfamily (255,~255,~255)},  }\item[{}]{contour = {\ttfamily \char`\"{}simple\char`\"{}},  }\item[{}]{preview = {\ttfamily False},  }\item[{}]{magnet = {\ttfamily False},  }\item[{}]{pos = {\ttfamily QPointF(0,0)} }\end{DoxyParamCaption})}
+
+
+
+Add State. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em preview} & boolean which says if the state contains latex (to preview) or not \\
+\hline
+{\em magnet} & boolean which says if the State is magnetized of not \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the added state 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDrawer_1_1Drawer_aae2516d8db8154b1ec4a2396de573429}\label{classDrawer_1_1Drawer_aae2516d8db8154b1ec4a2396de573429}} 
+\index{Drawer.Drawer@{Drawer.Drawer}!addTransition@{addTransition}}
+\index{addTransition@{addTransition}!Drawer.Drawer@{Drawer.Drawer}}
+\subsubsection{\texorpdfstring{addTransition()}{addTransition()}}
+{\footnotesize\ttfamily def Drawer.\+Drawer.\+add\+Transition (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{n1,  }\item[{}]{n2,  }\item[{}]{id = {\ttfamily -\/1},  }\item[{}]{label = {\ttfamily \char`\"{}\char`\"{}},  }\item[{}]{color = {\ttfamily (0,~0,~0)},  }\item[{}]{height = {\ttfamily 0},  }\item[{}]{preview = {\ttfamily False},  }\item[{}]{dx = {\ttfamily 0},  }\item[{}]{dy = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+Add a transition between n1 and n2. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n1} & The src State \\
+\hline
+{\em n2} & The dst State \\
+\hline
+{\em preview} & Does is have a formula in his label ? \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+added transition 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDrawer_1_1Drawer_a25193cdc8d6c08da73bac711e1bbdd8a}\label{classDrawer_1_1Drawer_a25193cdc8d6c08da73bac711e1bbdd8a}} 
+\index{Drawer.Drawer@{Drawer.Drawer}!aiAlignStates@{aiAlignStates}}
+\index{aiAlignStates@{aiAlignStates}!Drawer.Drawer@{Drawer.Drawer}}
+\subsubsection{\texorpdfstring{aiAlignStates()}{aiAlignStates()}}
+{\footnotesize\ttfamily def Drawer.\+Drawer.\+ai\+Align\+States (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{states }\end{DoxyParamCaption})}
+
+
+
+Call for the Automatic Replacement with Moz\+IA. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em states} & States to replace \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classDrawer_1_1Drawer_ac487d0cbf8b206c1a4405a2e1da26526}\label{classDrawer_1_1Drawer_ac487d0cbf8b206c1a4405a2e1da26526}} 
+\index{Drawer.Drawer@{Drawer.Drawer}!clears@{clears}}
+\index{clears@{clears}!Drawer.Drawer@{Drawer.Drawer}}
+\subsubsection{\texorpdfstring{clears()}{clears()}}
+{\footnotesize\ttfamily def Drawer.\+Drawer.\+clears (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Remove all states and transitions from this drawer and his scene. 
+
+\mbox{\Hypertarget{classDrawer_1_1Drawer_ac7bd0a70f3717fd40ff6b9360c1ff51d}\label{classDrawer_1_1Drawer_ac7bd0a70f3717fd40ff6b9360c1ff51d}} 
+\index{Drawer.Drawer@{Drawer.Drawer}!delState@{delState}}
+\index{delState@{delState}!Drawer.Drawer@{Drawer.Drawer}}
+\subsubsection{\texorpdfstring{delState()}{delState()}}
+{\footnotesize\ttfamily def Drawer.\+Drawer.\+del\+State (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{state }\end{DoxyParamCaption})}
+
+
+
+Delete a state. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em state} & The state to delete \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classDrawer_1_1Drawer_a6b36ec97121b8576eef08fb7430882a8}\label{classDrawer_1_1Drawer_a6b36ec97121b8576eef08fb7430882a8}} 
+\index{Drawer.Drawer@{Drawer.Drawer}!delTransition@{delTransition}}
+\index{delTransition@{delTransition}!Drawer.Drawer@{Drawer.Drawer}}
+\subsubsection{\texorpdfstring{delTransition()}{delTransition()}}
+{\footnotesize\ttfamily def Drawer.\+Drawer.\+del\+Transition (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{transition }\end{DoxyParamCaption})}
+
+
+
+Delete a transition. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em transition} & The transition to delete \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classDrawer_1_1Drawer_a6d0baf0bf280f0cbfc42e7fc8d57cadb}\label{classDrawer_1_1Drawer_a6d0baf0bf280f0cbfc42e7fc8d57cadb}} 
+\index{Drawer.Drawer@{Drawer.Drawer}!getScene@{getScene}}
+\index{getScene@{getScene}!Drawer.Drawer@{Drawer.Drawer}}
+\subsubsection{\texorpdfstring{getScene()}{getScene()}}
+{\footnotesize\ttfamily def Drawer.\+Drawer.\+get\+Scene (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Get the current scene. 
+
+\begin{DoxyReturn}{Returns}
+The scene 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDrawer_1_1Drawer_a80e742a1ca3ac0eb44f8f0ce5168a135}\label{classDrawer_1_1Drawer_a80e742a1ca3ac0eb44f8f0ce5168a135}} 
+\index{Drawer.Drawer@{Drawer.Drawer}!getStates@{getStates}}
+\index{getStates@{getStates}!Drawer.Drawer@{Drawer.Drawer}}
+\subsubsection{\texorpdfstring{getStates()}{getStates()}}
+{\footnotesize\ttfamily def Drawer.\+Drawer.\+get\+States (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+What about having all states of the Project ? 
+
+\begin{DoxyReturn}{Returns}
+states of the project 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDrawer_1_1Drawer_a84e894687f80eef391d57a1aeb14ad74}\label{classDrawer_1_1Drawer_a84e894687f80eef391d57a1aeb14ad74}} 
+\index{Drawer.Drawer@{Drawer.Drawer}!getTransitions@{getTransitions}}
+\index{getTransitions@{getTransitions}!Drawer.Drawer@{Drawer.Drawer}}
+\subsubsection{\texorpdfstring{getTransitions()}{getTransitions()}}
+{\footnotesize\ttfamily def Drawer.\+Drawer.\+get\+Transitions (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+What about having all transitions of the Project ? 
+
+\begin{DoxyReturn}{Returns}
+transitions of the project 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDrawer_1_1Drawer_ab0563a671a284efd8f55bb70a883fd4c}\label{classDrawer_1_1Drawer_ab0563a671a284efd8f55bb70a883fd4c}} 
+\index{Drawer.Drawer@{Drawer.Drawer}!load@{load}}
+\index{load@{load}!Drawer.Drawer@{Drawer.Drawer}}
+\subsubsection{\texorpdfstring{load()}{load()}}
+{\footnotesize\ttfamily def Drawer.\+Drawer.\+load (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{input\+\_\+file\+\_\+name }\end{DoxyParamCaption})}
+
+
+
+Load a model from a .otmt file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em input\+\_\+file\+\_\+name} & The path of the .otmt file \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classDrawer_1_1Drawer_ad2f169528e41121dbe082bc62148bbd4}\label{classDrawer_1_1Drawer_ad2f169528e41121dbe082bc62148bbd4}} 
+\index{Drawer.Drawer@{Drawer.Drawer}!save@{save}}
+\index{save@{save}!Drawer.Drawer@{Drawer.Drawer}}
+\subsubsection{\texorpdfstring{save()}{save()}}
+{\footnotesize\ttfamily def Drawer.\+Drawer.\+save (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{output\+\_\+file\+\_\+name,  }\item[{}]{verbose = {\ttfamily False} }\end{DoxyParamCaption})}
+
+
+
+Save the current automata. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em output\+\_\+file\+\_\+name} & The path of the .otmt file \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classDrawer_1_1Drawer_aec0fcb955a455d1275923b0d9ffb99ec}\label{classDrawer_1_1Drawer_aec0fcb955a455d1275923b0d9ffb99ec}} 
+\index{Drawer.Drawer@{Drawer.Drawer}!setLabel@{setLabel}}
+\index{setLabel@{setLabel}!Drawer.Drawer@{Drawer.Drawer}}
+\subsubsection{\texorpdfstring{setLabel()}{setLabel()}}
+{\footnotesize\ttfamily def Drawer.\+Drawer.\+set\+Label (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{label }\end{DoxyParamCaption})}
+
+
+
+Set name of the current automata Project. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em label} & Name of the project \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classDrawer_1_1Drawer_a3863b8beea85d01ebc90f997f41d846c}\label{classDrawer_1_1Drawer_a3863b8beea85d01ebc90f997f41d846c}} 
+\index{Drawer.Drawer@{Drawer.Drawer}!setRadiusSelected@{setRadiusSelected}}
+\index{setRadiusSelected@{setRadiusSelected}!Drawer.Drawer@{Drawer.Drawer}}
+\subsubsection{\texorpdfstring{setRadiusSelected()}{setRadiusSelected()}}
+{\footnotesize\ttfamily def Drawer.\+Drawer.\+set\+Radius\+Selected (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{radius }\end{DoxyParamCaption})}
+
+
+
+Set radius of selected states. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em radius} & int which is the new radius of states \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classDrawer_1_1Drawer_ad77bf08e11c3d86b7bdd8bc49cfbb0f5}\label{classDrawer_1_1Drawer_ad77bf08e11c3d86b7bdd8bc49cfbb0f5}} 
+\index{Drawer.Drawer@{Drawer.Drawer}!setStateLabel@{setStateLabel}}
+\index{setStateLabel@{setStateLabel}!Drawer.Drawer@{Drawer.Drawer}}
+\subsubsection{\texorpdfstring{setStateLabel()}{setStateLabel()}}
+{\footnotesize\ttfamily def Drawer.\+Drawer.\+set\+State\+Label (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{label }\end{DoxyParamCaption})}
+
+
+
+Set name of selected states. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em label} & string which is the name of states \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Class/Drawer.\+py\end{DoxyCompactItemize}

@@ -1,0 +1,6 @@
+*.otmt
+Class/__pycache__/
+Class/AI/__pycache__/
+*.png
+*.tex
+*.orig

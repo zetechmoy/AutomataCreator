@@ -1,0 +1,592 @@
+\hypertarget{classDatasetManager_1_1DatasetManager}{}\section{Dataset\+Manager.\+Dataset\+Manager Class Reference}
+\label{classDatasetManager_1_1DatasetManager}\index{DatasetManager.DatasetManager@{DatasetManager.DatasetManager}}
+
+
+Manage dataset and input for AI.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_a8a2a10a24298cd8be7e947a235aa6ad4}\label{classDatasetManager_1_1DatasetManager_a8a2a10a24298cd8be7e947a235aa6ad4}} 
+def \mbox{\hyperlink{classDatasetManager_1_1DatasetManager_a8a2a10a24298cd8be7e947a235aa6ad4}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self)
+\begin{DoxyCompactList}\small\item\em Init hyperparameters. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDatasetManager_1_1DatasetManager_a35353a0d4eb0a3821142d78c88987aea}{get\+Align\+Model}} (self, center\+\_\+x, center\+\_\+y, delta, nb\+\_\+state)
+\begin{DoxyCompactList}\small\item\em Create aligned models. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDatasetManager_1_1DatasetManager_a3aff4da481f1011c6332b6046d6b2b75}{get\+Parallele\+Model}} (self, center\+\_\+x, center\+\_\+y, delta, nb\+\_\+state)
+\begin{DoxyCompactList}\small\item\em Create parallele models. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDatasetManager_1_1DatasetManager_a5a4ddca426c46443064d620a20924b92}{get\+Parallele2\+Model}} (self, center\+\_\+x, center\+\_\+y, delta, nb\+\_\+state)
+\begin{DoxyCompactList}\small\item\em Create parallele2 models. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDatasetManager_1_1DatasetManager_a700d73380b9e8ef82c113d6d12a22122}{get\+Parallele3\+Model}} (self, center\+\_\+x, center\+\_\+y, delta, nb\+\_\+state)
+\begin{DoxyCompactList}\small\item\em Create parallele3 models. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDatasetManager_1_1DatasetManager_a0d45611b711b9157556bff7b8873808b}{get\+Parallele4\+Model}} (self, center\+\_\+x, center\+\_\+y, delta, nb\+\_\+state)
+\begin{DoxyCompactList}\small\item\em Create parallele4 models. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDatasetManager_1_1DatasetManager_a12c6f3d08fa02b6fc21ba3e7e4888b09}{get\+Diagonal\+Model}} (self, center\+\_\+x, center\+\_\+y, delta, nb\+\_\+state)
+\begin{DoxyCompactList}\small\item\em Create Diagonal models. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDatasetManager_1_1DatasetManager_abc53d79472bd2d226ef1e011e6048c2e}{get\+L\+Model}} (self, center\+\_\+x, center\+\_\+y, delta, nb\+\_\+state)
+\begin{DoxyCompactList}\small\item\em Create L models. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDatasetManager_1_1DatasetManager_a775d6b4eeebf79ff9a5794e65d63504a}{get\+Circle\+Model}} (self, center\+\_\+x, center\+\_\+y, delta, nb\+\_\+state)
+\begin{DoxyCompactList}\small\item\em Create circle models. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDatasetManager_1_1DatasetManager_aa80b207897d9adf3b805d0185bff4448}{reverse\+Model\+Top\+To\+Bottom}} (self, model)
+\begin{DoxyCompactList}\small\item\em Create a symetric copy of model following X axe. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDatasetManager_1_1DatasetManager_adcd554118e14f508c09e5a1cec76f5c6}{reverse\+Model\+Right\+To\+Left}} (self, model)
+\begin{DoxyCompactList}\small\item\em Create a symetric copy of model following Y axe. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDatasetManager_1_1DatasetManager_ab9a81926fce61fa42e47ad0471ca9693}{get\+All\+Models}} (self, center\+\_\+x, center\+\_\+y, delta, nb\+\_\+state)
+\begin{DoxyCompactList}\small\item\em Create all models. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDatasetManager_1_1DatasetManager_ac917cfc70457ce95244406d2b909f36d}{get\+All\+Models2}} (self, center\+\_\+x, center\+\_\+y, delta, nb\+\_\+state)
+\begin{DoxyCompactList}\small\item\em Create all models (i had problems with order so i had to create another one) \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDatasetManager_1_1DatasetManager_a96d1116353ae5dc3841786f424276504}{get\+All\+Class\+Models}} (self, center\+\_\+x, center\+\_\+y, delta, nb\+\_\+state)
+\begin{DoxyCompactList}\small\item\em Create all class models, meaning the output of ai. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDatasetManager_1_1DatasetManager_a80626776f98a3b4286d269376bb0bc6b}{get\+All\+Class\+Models2}} (self, center\+\_\+x, center\+\_\+y, delta, nb\+\_\+state)
+\begin{DoxyCompactList}\small\item\em Create all class models, meaning the output of ai (i had problems with order so i had to create another one) \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDatasetManager_1_1DatasetManager_a4f0525d718b6196c7dc922957418ab00}{shuffle}} (self, x, y)
+\begin{DoxyCompactList}\small\item\em Shuffle two list and keep the same order. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDatasetManager_1_1DatasetManager_aacab55c5dd501410186b7cb4eb49d3fc}{create\+Classification\+Dataset}} (self, nb\+\_\+state, dsize=1000)
+\begin{DoxyCompactList}\small\item\em Create the dataset to learn. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDatasetManager_1_1DatasetManager_aa947266c3671f93a2cc1d71722bb556f}{gen\+Input}} (self, nb\+\_\+state)
+\begin{DoxyCompactList}\small\item\em Generate a simple sample of input with nb\+\_\+state. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDatasetManager_1_1DatasetManager_aaa1d5165200cf8cec731fd8d08bdf2bc}{show\+Model}} (self, model)
+\begin{DoxyCompactList}\small\item\em Show model with matplotlib. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDatasetManager_1_1DatasetManager_ad25e44f84d74a74eae1c301ca29eb86f}{show\+Model\+With\+Noise}} (self, noisy\+\_\+model, model)
+\begin{DoxyCompactList}\small\item\em Show model with matplotlib. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDatasetManager_1_1DatasetManager_a47092104ac9bb0445ffbf3ad8e2727e0}{compare\+Results}} (self, res1, res2)
+\begin{DoxyCompactList}\small\item\em Does res1 and res2 are the same ? \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDatasetManager_1_1DatasetManager_a2764d554ac8ce8cdbe0e1c9839fee312}{get\+Model\+Name}} (self, model\+\_\+class)
+\begin{DoxyCompactList}\small\item\em Get the name of the model following the type of model (and the weird order) \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDatasetManager_1_1DatasetManager_ad99fc67b1ea1caa9660d7fd0e2824a61}{normalize\+Input}} (self, input)
+\begin{DoxyCompactList}\small\item\em Normalize an input. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classDatasetManager_1_1DatasetManager_a84619ad2806ca24a87c3064f2d7bb23d}{sort\+Input}} (self, points)
+\begin{DoxyCompactList}\small\item\em Sort input following the diagonal which start to the upper left point to the downer right point. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_aeaed6a7f4786b3ff96ba472d2d0c4a73}\label{classDatasetManager_1_1DatasetManager_aeaed6a7f4786b3ff96ba472d2d0c4a73}} 
+{\bfseries max\+\_\+delta}
+\item 
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_aeb90d22c58319cfce60c03856adf887b}\label{classDatasetManager_1_1DatasetManager_aeb90d22c58319cfce60c03856adf887b}} 
+{\bfseries min\+\_\+delta}
+\item 
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_a7c17715af6895f59942582ff1801cb08}\label{classDatasetManager_1_1DatasetManager_a7c17715af6895f59942582ff1801cb08}} 
+{\bfseries max\+\_\+center\+\_\+x}
+\item 
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_a09ff157845ff705f444c2dfc77dbb345}\label{classDatasetManager_1_1DatasetManager_a09ff157845ff705f444c2dfc77dbb345}} 
+{\bfseries max\+\_\+center\+\_\+y}
+\item 
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_a6c28925f953c0f22d455e97d35c984aa}\label{classDatasetManager_1_1DatasetManager_a6c28925f953c0f22d455e97d35c984aa}} 
+{\bfseries min\+\_\+center\+\_\+x}
+\item 
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_a476253eba25c1c5f318143a9fdaccfde}\label{classDatasetManager_1_1DatasetManager_a476253eba25c1c5f318143a9fdaccfde}} 
+{\bfseries min\+\_\+center\+\_\+y}
+\item 
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_aac12fe25af9a7c2908eb995ae2df8acd}\label{classDatasetManager_1_1DatasetManager_aac12fe25af9a7c2908eb995ae2df8acd}} 
+{\bfseries max\+\_\+variance}
+\item 
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_aa79ba2dae556dbce183702d12ae39dbb}\label{classDatasetManager_1_1DatasetManager_aa79ba2dae556dbce183702d12ae39dbb}} 
+{\bfseries min\+\_\+variance}
+\item 
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_ab5d11c5f18e34219c24ff17b3023265b}\label{classDatasetManager_1_1DatasetManager_ab5d11c5f18e34219c24ff17b3023265b}} 
+{\bfseries vt}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Manage dataset and input for AI. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_a47092104ac9bb0445ffbf3ad8e2727e0}\label{classDatasetManager_1_1DatasetManager_a47092104ac9bb0445ffbf3ad8e2727e0}} 
+\index{DatasetManager.DatasetManager@{DatasetManager.DatasetManager}!compareResults@{compareResults}}
+\index{compareResults@{compareResults}!DatasetManager.DatasetManager@{DatasetManager.DatasetManager}}
+\subsubsection{\texorpdfstring{compareResults()}{compareResults()}}
+{\footnotesize\ttfamily def Dataset\+Manager.\+Dataset\+Manager.\+compare\+Results (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{res1,  }\item[{}]{res2 }\end{DoxyParamCaption})}
+
+
+
+Does res1 and res2 are the same ? 
+
+
+\begin{DoxyParams}{Parameters}
+{\em res1} & is the theoretical model \\
+\hline
+{\em res2} & is the predicted model \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_aacab55c5dd501410186b7cb4eb49d3fc}\label{classDatasetManager_1_1DatasetManager_aacab55c5dd501410186b7cb4eb49d3fc}} 
+\index{DatasetManager.DatasetManager@{DatasetManager.DatasetManager}!createClassificationDataset@{createClassificationDataset}}
+\index{createClassificationDataset@{createClassificationDataset}!DatasetManager.DatasetManager@{DatasetManager.DatasetManager}}
+\subsubsection{\texorpdfstring{createClassificationDataset()}{createClassificationDataset()}}
+{\footnotesize\ttfamily def Dataset\+Manager.\+Dataset\+Manager.\+create\+Classification\+Dataset (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{nb\+\_\+state,  }\item[{}]{dsize = {\ttfamily 1000} }\end{DoxyParamCaption})}
+
+
+
+Create the dataset to learn. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nb\+\_\+state} & How many states there will be in model ? \\
+\hline
+{\em dsize} & To generate more or less inputs \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{[}model, model, models ... model\mbox{]}, \mbox{[}type\+\_\+of\+\_\+model, type\+\_\+of\+\_\+model ... type\+\_\+of\+\_\+model\mbox{]} a model is \mbox{[}\mbox{[}x, y\mbox{]}, \mbox{[}x, y\mbox{]}, \mbox{[}x, y\mbox{]} ... \mbox{[}x, y\mbox{]}\mbox{]} a type\+\_\+of\+\_\+model is \mbox{[}0, 0, 0 ... 0, 0\mbox{]} (with a 1 inside corresponfing of the type) \begin{DoxyVerb}On prend des modèles de base, puis on créé des modèles de base décalés (Y), puis dans l'autre sens.
+A partir de ces Y, on créé des différences de position par rapport à l'alignement parfait du modèle.
+Ces modèles imparfait représentes les états du modèles que l'utilisateur veut rendre parfait (X)\end{DoxyVerb}
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_aa947266c3671f93a2cc1d71722bb556f}\label{classDatasetManager_1_1DatasetManager_aa947266c3671f93a2cc1d71722bb556f}} 
+\index{DatasetManager.DatasetManager@{DatasetManager.DatasetManager}!genInput@{genInput}}
+\index{genInput@{genInput}!DatasetManager.DatasetManager@{DatasetManager.DatasetManager}}
+\subsubsection{\texorpdfstring{genInput()}{genInput()}}
+{\footnotesize\ttfamily def Dataset\+Manager.\+Dataset\+Manager.\+gen\+Input (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{nb\+\_\+state }\end{DoxyParamCaption})}
+
+
+
+Generate a simple sample of input with nb\+\_\+state. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nb\+\_\+state} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+models with noise, model class, perfect models 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_a35353a0d4eb0a3821142d78c88987aea}\label{classDatasetManager_1_1DatasetManager_a35353a0d4eb0a3821142d78c88987aea}} 
+\index{DatasetManager.DatasetManager@{DatasetManager.DatasetManager}!getAlignModel@{getAlignModel}}
+\index{getAlignModel@{getAlignModel}!DatasetManager.DatasetManager@{DatasetManager.DatasetManager}}
+\subsubsection{\texorpdfstring{getAlignModel()}{getAlignModel()}}
+{\footnotesize\ttfamily def Dataset\+Manager.\+Dataset\+Manager.\+get\+Align\+Model (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{center\+\_\+x,  }\item[{}]{center\+\_\+y,  }\item[{}]{delta,  }\item[{}]{nb\+\_\+state }\end{DoxyParamCaption})}
+
+
+
+Create aligned models. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em center\+\_\+x} & center in the model following x axe \\
+\hline
+{\em center\+\_\+y} & center in the model following y axe \\
+\hline
+{\em delta} & the distance bewteen 2 states \\
+\hline
+{\em nb\+\_\+state} & how many states for this model \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The model \begin{DoxyVerb}    #MODELE1 aligned-points getAlignModel
+    #0-0
+    #0-0-0
+    #0-0-0-0
+    #0-0-0-0-0
+    #0-0-0-0-0-0
+    #0-0-0-0-0-0-0
+    #0-0-0-0-0-0-0-0
+\end{DoxyVerb}
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_a96d1116353ae5dc3841786f424276504}\label{classDatasetManager_1_1DatasetManager_a96d1116353ae5dc3841786f424276504}} 
+\index{DatasetManager.DatasetManager@{DatasetManager.DatasetManager}!getAllClassModels@{getAllClassModels}}
+\index{getAllClassModels@{getAllClassModels}!DatasetManager.DatasetManager@{DatasetManager.DatasetManager}}
+\subsubsection{\texorpdfstring{getAllClassModels()}{getAllClassModels()}}
+{\footnotesize\ttfamily def Dataset\+Manager.\+Dataset\+Manager.\+get\+All\+Class\+Models (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{center\+\_\+x,  }\item[{}]{center\+\_\+y,  }\item[{}]{delta,  }\item[{}]{nb\+\_\+state }\end{DoxyParamCaption})}
+
+
+
+Create all class models, meaning the output of ai. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em center\+\_\+x} & center in the model following x axe \\
+\hline
+{\em center\+\_\+y} & center in the model following y axe \\
+\hline
+{\em delta} & the distance bewteen 2 states \\
+\hline
+{\em nb\+\_\+state} & how many states for this model \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+models for all types 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_a80626776f98a3b4286d269376bb0bc6b}\label{classDatasetManager_1_1DatasetManager_a80626776f98a3b4286d269376bb0bc6b}} 
+\index{DatasetManager.DatasetManager@{DatasetManager.DatasetManager}!getAllClassModels2@{getAllClassModels2}}
+\index{getAllClassModels2@{getAllClassModels2}!DatasetManager.DatasetManager@{DatasetManager.DatasetManager}}
+\subsubsection{\texorpdfstring{getAllClassModels2()}{getAllClassModels2()}}
+{\footnotesize\ttfamily def Dataset\+Manager.\+Dataset\+Manager.\+get\+All\+Class\+Models2 (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{center\+\_\+x,  }\item[{}]{center\+\_\+y,  }\item[{}]{delta,  }\item[{}]{nb\+\_\+state }\end{DoxyParamCaption})}
+
+
+
+Create all class models, meaning the output of ai (i had problems with order so i had to create another one) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em center\+\_\+x} & center in the model following x axe \\
+\hline
+{\em center\+\_\+y} & center in the model following y axe \\
+\hline
+{\em delta} & the distance bewteen 2 states \\
+\hline
+{\em nb\+\_\+state} & how many states for this model \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+models for all types 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_ab9a81926fce61fa42e47ad0471ca9693}\label{classDatasetManager_1_1DatasetManager_ab9a81926fce61fa42e47ad0471ca9693}} 
+\index{DatasetManager.DatasetManager@{DatasetManager.DatasetManager}!getAllModels@{getAllModels}}
+\index{getAllModels@{getAllModels}!DatasetManager.DatasetManager@{DatasetManager.DatasetManager}}
+\subsubsection{\texorpdfstring{getAllModels()}{getAllModels()}}
+{\footnotesize\ttfamily def Dataset\+Manager.\+Dataset\+Manager.\+get\+All\+Models (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{center\+\_\+x,  }\item[{}]{center\+\_\+y,  }\item[{}]{delta,  }\item[{}]{nb\+\_\+state }\end{DoxyParamCaption})}
+
+
+
+Create all models. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em center\+\_\+x} & center in the model following x axe \\
+\hline
+{\em center\+\_\+y} & center in the model following y axe \\
+\hline
+{\em delta} & the distance bewteen 2 states \\
+\hline
+{\em nb\+\_\+state} & how many states for this model \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+models for all types 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_ac917cfc70457ce95244406d2b909f36d}\label{classDatasetManager_1_1DatasetManager_ac917cfc70457ce95244406d2b909f36d}} 
+\index{DatasetManager.DatasetManager@{DatasetManager.DatasetManager}!getAllModels2@{getAllModels2}}
+\index{getAllModels2@{getAllModels2}!DatasetManager.DatasetManager@{DatasetManager.DatasetManager}}
+\subsubsection{\texorpdfstring{getAllModels2()}{getAllModels2()}}
+{\footnotesize\ttfamily def Dataset\+Manager.\+Dataset\+Manager.\+get\+All\+Models2 (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{center\+\_\+x,  }\item[{}]{center\+\_\+y,  }\item[{}]{delta,  }\item[{}]{nb\+\_\+state }\end{DoxyParamCaption})}
+
+
+
+Create all models (i had problems with order so i had to create another one) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em center\+\_\+x} & center in the model following x axe \\
+\hline
+{\em center\+\_\+y} & center in the model following y axe \\
+\hline
+{\em delta} & the distance bewteen 2 states \\
+\hline
+{\em nb\+\_\+state} & how many states for this model \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+models for all types 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_a775d6b4eeebf79ff9a5794e65d63504a}\label{classDatasetManager_1_1DatasetManager_a775d6b4eeebf79ff9a5794e65d63504a}} 
+\index{DatasetManager.DatasetManager@{DatasetManager.DatasetManager}!getCircleModel@{getCircleModel}}
+\index{getCircleModel@{getCircleModel}!DatasetManager.DatasetManager@{DatasetManager.DatasetManager}}
+\subsubsection{\texorpdfstring{getCircleModel()}{getCircleModel()}}
+{\footnotesize\ttfamily def Dataset\+Manager.\+Dataset\+Manager.\+get\+Circle\+Model (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{center\+\_\+x,  }\item[{}]{center\+\_\+y,  }\item[{}]{delta,  }\item[{}]{nb\+\_\+state }\end{DoxyParamCaption})}
+
+
+
+Create circle models. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em center\+\_\+x} & center in the model following x axe \\
+\hline
+{\em center\+\_\+y} & center in the model following y axe \\
+\hline
+{\em delta} & the distance bewteen 2 states \\
+\hline
+{\em nb\+\_\+state} & how many states for this model \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The model 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_a12c6f3d08fa02b6fc21ba3e7e4888b09}\label{classDatasetManager_1_1DatasetManager_a12c6f3d08fa02b6fc21ba3e7e4888b09}} 
+\index{DatasetManager.DatasetManager@{DatasetManager.DatasetManager}!getDiagonalModel@{getDiagonalModel}}
+\index{getDiagonalModel@{getDiagonalModel}!DatasetManager.DatasetManager@{DatasetManager.DatasetManager}}
+\subsubsection{\texorpdfstring{getDiagonalModel()}{getDiagonalModel()}}
+{\footnotesize\ttfamily def Dataset\+Manager.\+Dataset\+Manager.\+get\+Diagonal\+Model (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{center\+\_\+x,  }\item[{}]{center\+\_\+y,  }\item[{}]{delta,  }\item[{}]{nb\+\_\+state }\end{DoxyParamCaption})}
+
+
+
+Create Diagonal models. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em center\+\_\+x} & center in the model following x axe \\
+\hline
+{\em center\+\_\+y} & center in the model following y axe \\
+\hline
+{\em delta} & the distance bewteen 2 states \\
+\hline
+{\em nb\+\_\+state} & how many states for this model \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The model \begin{DoxyVerb}  0
+ 0
+0
+\end{DoxyVerb}
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_abc53d79472bd2d226ef1e011e6048c2e}\label{classDatasetManager_1_1DatasetManager_abc53d79472bd2d226ef1e011e6048c2e}} 
+\index{DatasetManager.DatasetManager@{DatasetManager.DatasetManager}!getLModel@{getLModel}}
+\index{getLModel@{getLModel}!DatasetManager.DatasetManager@{DatasetManager.DatasetManager}}
+\subsubsection{\texorpdfstring{getLModel()}{getLModel()}}
+{\footnotesize\ttfamily def Dataset\+Manager.\+Dataset\+Manager.\+get\+L\+Model (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{center\+\_\+x,  }\item[{}]{center\+\_\+y,  }\item[{}]{delta,  }\item[{}]{nb\+\_\+state }\end{DoxyParamCaption})}
+
+
+
+Create L models. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em center\+\_\+x} & center in the model following x axe \\
+\hline
+{\em center\+\_\+y} & center in the model following y axe \\
+\hline
+{\em delta} & the distance bewteen 2 states \\
+\hline
+{\em nb\+\_\+state} & how many states for this model \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The model 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_a2764d554ac8ce8cdbe0e1c9839fee312}\label{classDatasetManager_1_1DatasetManager_a2764d554ac8ce8cdbe0e1c9839fee312}} 
+\index{DatasetManager.DatasetManager@{DatasetManager.DatasetManager}!getModelName@{getModelName}}
+\index{getModelName@{getModelName}!DatasetManager.DatasetManager@{DatasetManager.DatasetManager}}
+\subsubsection{\texorpdfstring{getModelName()}{getModelName()}}
+{\footnotesize\ttfamily def Dataset\+Manager.\+Dataset\+Manager.\+get\+Model\+Name (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{model\+\_\+class }\end{DoxyParamCaption})}
+
+
+
+Get the name of the model following the type of model (and the weird order) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em model\+\_\+class} & The class of the model \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The name of the model 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_a5a4ddca426c46443064d620a20924b92}\label{classDatasetManager_1_1DatasetManager_a5a4ddca426c46443064d620a20924b92}} 
+\index{DatasetManager.DatasetManager@{DatasetManager.DatasetManager}!getParallele2Model@{getParallele2Model}}
+\index{getParallele2Model@{getParallele2Model}!DatasetManager.DatasetManager@{DatasetManager.DatasetManager}}
+\subsubsection{\texorpdfstring{getParallele2Model()}{getParallele2Model()}}
+{\footnotesize\ttfamily def Dataset\+Manager.\+Dataset\+Manager.\+get\+Parallele2\+Model (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{center\+\_\+x,  }\item[{}]{center\+\_\+y,  }\item[{}]{delta,  }\item[{}]{nb\+\_\+state }\end{DoxyParamCaption})}
+
+
+
+Create parallele2 models. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em center\+\_\+x} & center in the model following x axe \\
+\hline
+{\em center\+\_\+y} & center in the model following y axe \\
+\hline
+{\em delta} & the distance bewteen 2 states \\
+\hline
+{\em nb\+\_\+state} & how many states for this model \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The model 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_a700d73380b9e8ef82c113d6d12a22122}\label{classDatasetManager_1_1DatasetManager_a700d73380b9e8ef82c113d6d12a22122}} 
+\index{DatasetManager.DatasetManager@{DatasetManager.DatasetManager}!getParallele3Model@{getParallele3Model}}
+\index{getParallele3Model@{getParallele3Model}!DatasetManager.DatasetManager@{DatasetManager.DatasetManager}}
+\subsubsection{\texorpdfstring{getParallele3Model()}{getParallele3Model()}}
+{\footnotesize\ttfamily def Dataset\+Manager.\+Dataset\+Manager.\+get\+Parallele3\+Model (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{center\+\_\+x,  }\item[{}]{center\+\_\+y,  }\item[{}]{delta,  }\item[{}]{nb\+\_\+state }\end{DoxyParamCaption})}
+
+
+
+Create parallele3 models. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em center\+\_\+x} & center in the model following x axe \\
+\hline
+{\em center\+\_\+y} & center in the model following y axe \\
+\hline
+{\em delta} & the distance bewteen 2 states \\
+\hline
+{\em nb\+\_\+state} & how many states for this model \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The model 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_a0d45611b711b9157556bff7b8873808b}\label{classDatasetManager_1_1DatasetManager_a0d45611b711b9157556bff7b8873808b}} 
+\index{DatasetManager.DatasetManager@{DatasetManager.DatasetManager}!getParallele4Model@{getParallele4Model}}
+\index{getParallele4Model@{getParallele4Model}!DatasetManager.DatasetManager@{DatasetManager.DatasetManager}}
+\subsubsection{\texorpdfstring{getParallele4Model()}{getParallele4Model()}}
+{\footnotesize\ttfamily def Dataset\+Manager.\+Dataset\+Manager.\+get\+Parallele4\+Model (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{center\+\_\+x,  }\item[{}]{center\+\_\+y,  }\item[{}]{delta,  }\item[{}]{nb\+\_\+state }\end{DoxyParamCaption})}
+
+
+
+Create parallele4 models. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em center\+\_\+x} & center in the model following x axe \\
+\hline
+{\em center\+\_\+y} & center in the model following y axe \\
+\hline
+{\em delta} & the distance bewteen 2 states \\
+\hline
+{\em nb\+\_\+state} & how many states for this model \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The model 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_a3aff4da481f1011c6332b6046d6b2b75}\label{classDatasetManager_1_1DatasetManager_a3aff4da481f1011c6332b6046d6b2b75}} 
+\index{DatasetManager.DatasetManager@{DatasetManager.DatasetManager}!getParalleleModel@{getParalleleModel}}
+\index{getParalleleModel@{getParalleleModel}!DatasetManager.DatasetManager@{DatasetManager.DatasetManager}}
+\subsubsection{\texorpdfstring{getParalleleModel()}{getParalleleModel()}}
+{\footnotesize\ttfamily def Dataset\+Manager.\+Dataset\+Manager.\+get\+Parallele\+Model (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{center\+\_\+x,  }\item[{}]{center\+\_\+y,  }\item[{}]{delta,  }\item[{}]{nb\+\_\+state }\end{DoxyParamCaption})}
+
+
+
+Create parallele models. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em center\+\_\+x} & center in the model following x axe \\
+\hline
+{\em center\+\_\+y} & center in the model following y axe \\
+\hline
+{\em delta} & the distance bewteen 2 states \\
+\hline
+{\em nb\+\_\+state} & how many states for this model \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The model 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_ad99fc67b1ea1caa9660d7fd0e2824a61}\label{classDatasetManager_1_1DatasetManager_ad99fc67b1ea1caa9660d7fd0e2824a61}} 
+\index{DatasetManager.DatasetManager@{DatasetManager.DatasetManager}!normalizeInput@{normalizeInput}}
+\index{normalizeInput@{normalizeInput}!DatasetManager.DatasetManager@{DatasetManager.DatasetManager}}
+\subsubsection{\texorpdfstring{normalizeInput()}{normalizeInput()}}
+{\footnotesize\ttfamily def Dataset\+Manager.\+Dataset\+Manager.\+normalize\+Input (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{input }\end{DoxyParamCaption})}
+
+
+
+Normalize an input. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & List of points represnting a automata \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+normalized input 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_adcd554118e14f508c09e5a1cec76f5c6}\label{classDatasetManager_1_1DatasetManager_adcd554118e14f508c09e5a1cec76f5c6}} 
+\index{DatasetManager.DatasetManager@{DatasetManager.DatasetManager}!reverseModelRightToLeft@{reverseModelRightToLeft}}
+\index{reverseModelRightToLeft@{reverseModelRightToLeft}!DatasetManager.DatasetManager@{DatasetManager.DatasetManager}}
+\subsubsection{\texorpdfstring{reverseModelRightToLeft()}{reverseModelRightToLeft()}}
+{\footnotesize\ttfamily def Dataset\+Manager.\+Dataset\+Manager.\+reverse\+Model\+Right\+To\+Left (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{model }\end{DoxyParamCaption})}
+
+
+
+Create a symetric copy of model following Y axe. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em model} & The model to reverse \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_aa80b207897d9adf3b805d0185bff4448}\label{classDatasetManager_1_1DatasetManager_aa80b207897d9adf3b805d0185bff4448}} 
+\index{DatasetManager.DatasetManager@{DatasetManager.DatasetManager}!reverseModelTopToBottom@{reverseModelTopToBottom}}
+\index{reverseModelTopToBottom@{reverseModelTopToBottom}!DatasetManager.DatasetManager@{DatasetManager.DatasetManager}}
+\subsubsection{\texorpdfstring{reverseModelTopToBottom()}{reverseModelTopToBottom()}}
+{\footnotesize\ttfamily def Dataset\+Manager.\+Dataset\+Manager.\+reverse\+Model\+Top\+To\+Bottom (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{model }\end{DoxyParamCaption})}
+
+
+
+Create a symetric copy of model following X axe. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em model} & The model to reverse \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_aaa1d5165200cf8cec731fd8d08bdf2bc}\label{classDatasetManager_1_1DatasetManager_aaa1d5165200cf8cec731fd8d08bdf2bc}} 
+\index{DatasetManager.DatasetManager@{DatasetManager.DatasetManager}!showModel@{showModel}}
+\index{showModel@{showModel}!DatasetManager.DatasetManager@{DatasetManager.DatasetManager}}
+\subsubsection{\texorpdfstring{showModel()}{showModel()}}
+{\footnotesize\ttfamily def Dataset\+Manager.\+Dataset\+Manager.\+show\+Model (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{model }\end{DoxyParamCaption})}
+
+
+
+Show model with matplotlib. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em model} & The model to show (model is a list of \mbox{[}x, y\mbox{]}) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_ad25e44f84d74a74eae1c301ca29eb86f}\label{classDatasetManager_1_1DatasetManager_ad25e44f84d74a74eae1c301ca29eb86f}} 
+\index{DatasetManager.DatasetManager@{DatasetManager.DatasetManager}!showModelWithNoise@{showModelWithNoise}}
+\index{showModelWithNoise@{showModelWithNoise}!DatasetManager.DatasetManager@{DatasetManager.DatasetManager}}
+\subsubsection{\texorpdfstring{showModelWithNoise()}{showModelWithNoise()}}
+{\footnotesize\ttfamily def Dataset\+Manager.\+Dataset\+Manager.\+show\+Model\+With\+Noise (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{noisy\+\_\+model,  }\item[{}]{model }\end{DoxyParamCaption})}
+
+
+
+Show model with matplotlib. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em noisy\+\_\+model} & The noisy\+\_\+model to show (model is a list of \mbox{[}x, y\mbox{]}) \\
+\hline
+{\em model} & The model to show (model is a list of \mbox{[}x, y\mbox{]}) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_a4f0525d718b6196c7dc922957418ab00}\label{classDatasetManager_1_1DatasetManager_a4f0525d718b6196c7dc922957418ab00}} 
+\index{DatasetManager.DatasetManager@{DatasetManager.DatasetManager}!shuffle@{shuffle}}
+\index{shuffle@{shuffle}!DatasetManager.DatasetManager@{DatasetManager.DatasetManager}}
+\subsubsection{\texorpdfstring{shuffle()}{shuffle()}}
+{\footnotesize\ttfamily def Dataset\+Manager.\+Dataset\+Manager.\+shuffle (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{x,  }\item[{}]{y }\end{DoxyParamCaption})}
+
+
+
+Shuffle two list and keep the same order. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & First list \\
+\hline
+{\em y} & Second list \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classDatasetManager_1_1DatasetManager_a84619ad2806ca24a87c3064f2d7bb23d}\label{classDatasetManager_1_1DatasetManager_a84619ad2806ca24a87c3064f2d7bb23d}} 
+\index{DatasetManager.DatasetManager@{DatasetManager.DatasetManager}!sortInput@{sortInput}}
+\index{sortInput@{sortInput}!DatasetManager.DatasetManager@{DatasetManager.DatasetManager}}
+\subsubsection{\texorpdfstring{sortInput()}{sortInput()}}
+{\footnotesize\ttfamily def Dataset\+Manager.\+Dataset\+Manager.\+sort\+Input (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{points }\end{DoxyParamCaption})}
+
+
+
+Sort input following the diagonal which start to the upper left point to the downer right point. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em points} & Points to order \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ordered points 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Class/\+A\+I/Dataset\+Manager.\+py\end{DoxyCompactItemize}

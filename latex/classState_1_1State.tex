@@ -1,0 +1,517 @@
+\hypertarget{classState_1_1State}{}\section{State.\+State Class Reference}
+\label{classState_1_1State}\index{State.State@{State.State}}
+
+
+This is the class dedicated for the states.  
+
+
+
+
+Inheritance diagram for State.\+State\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=163pt]{classState_1_1State__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for State.\+State\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=163pt]{classState_1_1State__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classState_1_1State_a06a27f926cc7be3f16e259415c34d533}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, id=0, label=\char`\"{}\char`\"{}, radius=50, color=(0, 0, 0), background\+\_\+color=(255, 255, 255), contour=\char`\"{}simple\char`\"{}, preview=False, magnet=False, pos=Q\+PointF(0, 0))
+\begin{DoxyCompactList}\small\item\em Initialise the state. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classState_1_1State_aad307e33d63cc6b7df1bfc281ac414b0}\label{classState_1_1State_aad307e33d63cc6b7df1bfc281ac414b0}} 
+def {\bfseries bounding\+Rect} (self)
+\item 
+def \mbox{\hyperlink{classState_1_1State_af8a2d01341055bd8d0e56f5a45b81bb7}{paint}} (self, painter, option, widget)
+\begin{DoxyCompactList}\small\item\em A state is born. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classState_1_1State_a5923474787e9b253f6c1c31552839503}\label{classState_1_1State_a5923474787e9b253f6c1c31552839503}} 
+def \mbox{\hyperlink{classState_1_1State_a5923474787e9b253f6c1c31552839503}{item\+Change}} (self, change, value)
+\begin{DoxyCompactList}\small\item\em Change the transition correspond to new state\textquotesingle{}s position. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classState_1_1State_af8dae223eec1344656a82451fb7fdd98}{magnetized}} (self, magnet, width, height)
+\item 
+def \mbox{\hyperlink{classState_1_1State_a3fb5fb5e2fb8c14daedb424be4d867b3}{distance\+To}} (self, st)
+\begin{DoxyCompactList}\small\item\em How far do I have to go to go to you? \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classState_1_1State_a4cf3c389c5240bf94c31ea95567c8ccd}{set\+Label}} (self, label=\char`\"{}\char`\"{})
+\begin{DoxyCompactList}\small\item\em Modify the state\textquotesingle{}s label. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classState_1_1State_adc1a8f9b4fbb09c6c3b7f410d06adf42}{set\+Radius}} (self, radius=50)
+\begin{DoxyCompactList}\small\item\em Modify the state\textquotesingle{}s radius. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classState_1_1State_ab03eca69f6193adba38e0d0c975f829a}{set\+Position}} (self, x, y)
+\begin{DoxyCompactList}\small\item\em Modify the state\textquotesingle{}s position. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classState_1_1State_a9ae69a0a04376e2210c2ae2bcceb9e9f}{set\+Color}} (self, color=(0, 0, 0))
+\begin{DoxyCompactList}\small\item\em Modify the state\textquotesingle{}s color. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classState_1_1State_a7777063485195d1b34fd4ba6a7848ea5}{set\+Background\+Color}} (self, color=(0, 0, 0))
+\begin{DoxyCompactList}\small\item\em Modify the state\textquotesingle{}s background color. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classState_1_1State_a1957da99a57d165cd3275ffc38082293}{set\+Contour}} (self, contour=\char`\"{}simple\char`\"{})
+\begin{DoxyCompactList}\small\item\em T\+O\+DO -\/ Unused. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classState_1_1State_a9e41891de5049b102261bd3346edb10c}\label{classState_1_1State_a9e41891de5049b102261bd3346edb10c}} 
+def \mbox{\hyperlink{classState_1_1State_a9e41891de5049b102261bd3346edb10c}{set\+Initial}} (self)
+\begin{DoxyCompactList}\small\item\em Change the type of state to intial state. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classState_1_1State_aa420a44ab0e89912179b5dfe9ae042cd}\label{classState_1_1State_aa420a44ab0e89912179b5dfe9ae042cd}} 
+def \mbox{\hyperlink{classState_1_1State_aa420a44ab0e89912179b5dfe9ae042cd}{set\+Final}} (self)
+\begin{DoxyCompactList}\small\item\em Change the type of state to final state. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classState_1_1State_a40eeeceb18a42ea92a7c0983523efe9a}\label{classState_1_1State_a40eeeceb18a42ea92a7c0983523efe9a}} 
+def \mbox{\hyperlink{classState_1_1State_a40eeeceb18a42ea92a7c0983523efe9a}{remove\+Transition}} (self, t)
+\begin{DoxyCompactList}\small\item\em Delete all the transition associated to this state. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classState_1_1State_a1f81501729708ce030ae8a29889482d2}{get\+Label}} (self)
+\begin{DoxyCompactList}\small\item\em We may need to ask for the state\textquotesingle{}s label? \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classState_1_1State_afa144794f02bc71f49e1521f5a47afbf}{get\+Radius}} (self)
+\begin{DoxyCompactList}\small\item\em How big is the state? \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classState_1_1State_aaf60cf2700a02509c78256855429ef8c}{get\+Position}} (self)
+\begin{DoxyCompactList}\small\item\em Where is the state\textquotesingle{}s current position? \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classState_1_1State_ac432a1d641421836ccec98b421b82852}{get\+Color}} (self)
+\begin{DoxyCompactList}\small\item\em I am colorblind, I cannot see the color of the state\textquotesingle{}s edge. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classState_1_1State_a3844e06a4d0a60cb9d95cb22b168705e}{get\+Background\+Color}} (self)
+\begin{DoxyCompactList}\small\item\em Like I said, I am colorblind! How can I know the color of the background color without this methode? \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classState_1_1State_afa4bdf4fa0cb0c9644bf5b2777ebc876}{get\+Contour}} (self)
+\begin{DoxyCompactList}\small\item\em T\+O\+DO -\/ Unused. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classState_1_1State_af3be869fa4fa723d022ce8df0c48dec6}{get\+Final}} (self)
+\begin{DoxyCompactList}\small\item\em Is this state a final state? \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classState_1_1State_a7d796ed9f41f65938e2aaa1e47fefb63}{get\+Manualy\+Sized}} (self)
+\begin{DoxyCompactList}\small\item\em Is the state\textquotesingle{}s size is set mannually? \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classState_1_1State_a31ede47a6c4ffd0bd6ccbe3bcf570466}\label{classState_1_1State_a31ede47a6c4ffd0bd6ccbe3bcf570466}} 
+def {\bfseries get\+Id} (self)
+\item 
+def \mbox{\hyperlink{classState_1_1State_aaa419198fa3621653b526f3dab2a9354}{context\+Menu\+Event}} (self, event)
+\begin{DoxyCompactList}\small\item\em We want to have a menu to check on when we decide the state. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classState_1_1State_a1a7c4fbb0f8d3a14ef16726704d491be}{get\+Transitions}} (self)
+\begin{DoxyCompactList}\small\item\em What is a state good for if we don\textquotesingle{}t have access to its transitions? \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classState_1_1State_a28e28e4e91577847b44c7324d5584ed7}\label{classState_1_1State_a28e28e4e91577847b44c7324d5584ed7}} 
+def \mbox{\hyperlink{classState_1_1State_a28e28e4e91577847b44c7324d5584ed7}{show\+Infos}} (self)
+\begin{DoxyCompactList}\small\item\em Now I want to know all about this state. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classState_1_1State_a3a1fbc7eb7a9c27535d972c532a17844}{key\+Press\+Event}} (self, event)
+\begin{DoxyCompactList}\small\item\em I want to change the position of initial state\textquotesingle{}s arrow. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classState_1_1State_a9df53dcbf226c8ccc80ee242b63ab0ad}{mouse\+Release\+Event}} (self, event)
+\begin{DoxyCompactList}\small\item\em Release the mouse click lead to magnetize the state if the magnetized flag is up. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classState_1_1State_ad4f444f4b6f40d5da03adb2cc30ae12f}\label{classState_1_1State_ad4f444f4b6f40d5da03adb2cc30ae12f}} 
+def {\bfseries add\+Transition} (self, trans)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classState_1_1State_a7485f8f925a690e08cb8bcbce3f19359}\label{classState_1_1State_a7485f8f925a690e08cb8bcbce3f19359}} 
+{\bfseries id}
+\item 
+\mbox{\Hypertarget{classState_1_1State_a21eabe2e64dc2e9fd6e747d595284d05}\label{classState_1_1State_a21eabe2e64dc2e9fd6e747d595284d05}} 
+{\bfseries transitions}
+\item 
+\mbox{\Hypertarget{classState_1_1State_a8703396310c38c2e09bc79ffa810881f}\label{classState_1_1State_a8703396310c38c2e09bc79ffa810881f}} 
+{\bfseries preview\+\_\+flag}
+\item 
+\mbox{\Hypertarget{classState_1_1State_adeb49dbc1a55e8cefdf7ebe946b0e1d2}\label{classState_1_1State_adeb49dbc1a55e8cefdf7ebe946b0e1d2}} 
+{\bfseries prev\+\_\+image}
+\item 
+\mbox{\Hypertarget{classState_1_1State_aec1445138cd3111199949c8c1e86bee4}\label{classState_1_1State_aec1445138cd3111199949c8c1e86bee4}} 
+{\bfseries magnet\+\_\+flag}
+\item 
+\mbox{\Hypertarget{classState_1_1State_a1cf3271447ec2af9188df4f19a33dd82}\label{classState_1_1State_a1cf3271447ec2af9188df4f19a33dd82}} 
+{\bfseries magnet\+\_\+width}
+\item 
+\mbox{\Hypertarget{classState_1_1State_adfce3a57d942b16adc04173aa9c3952d}\label{classState_1_1State_adfce3a57d942b16adc04173aa9c3952d}} 
+{\bfseries magnet\+\_\+height}
+\item 
+\mbox{\Hypertarget{classState_1_1State_a5331f307e0e862b45986dc80a2fdbfcc}\label{classState_1_1State_a5331f307e0e862b45986dc80a2fdbfcc}} 
+{\bfseries label}
+\item 
+\mbox{\Hypertarget{classState_1_1State_ad8189ccc7dbe2937053cc5a9760b0354}\label{classState_1_1State_ad8189ccc7dbe2937053cc5a9760b0354}} 
+{\bfseries radius}
+\item 
+\mbox{\Hypertarget{classState_1_1State_aa08ae810e0fafc6d82ce9f41a17ecc10}\label{classState_1_1State_aa08ae810e0fafc6d82ce9f41a17ecc10}} 
+{\bfseries color}
+\item 
+\mbox{\Hypertarget{classState_1_1State_a9c9569d4d8ac6c80bf8a39f90275a445}\label{classState_1_1State_a9c9569d4d8ac6c80bf8a39f90275a445}} 
+{\bfseries background\+\_\+color}
+\item 
+\mbox{\Hypertarget{classState_1_1State_a375fdb70a1997d52a679b093b51d4f97}\label{classState_1_1State_a375fdb70a1997d52a679b093b51d4f97}} 
+{\bfseries contour}
+\item 
+\mbox{\Hypertarget{classState_1_1State_aa232caff1f513465226e7f7a9b0b8aac}\label{classState_1_1State_aa232caff1f513465226e7f7a9b0b8aac}} 
+{\bfseries rect}
+\item 
+\mbox{\Hypertarget{classState_1_1State_af162a4ad84fb3c03b10fc1bd1e8dbd23}\label{classState_1_1State_af162a4ad84fb3c03b10fc1bd1e8dbd23}} 
+{\bfseries background\+Brush}
+\item 
+\mbox{\Hypertarget{classState_1_1State_aac582b5c8940d28be0fbe58511a13331}\label{classState_1_1State_aac582b5c8940d28be0fbe58511a13331}} 
+{\bfseries shape\+Pen}
+\item 
+\mbox{\Hypertarget{classState_1_1State_a5142e18c89e1b29a846cd967dd7ae5a7}\label{classState_1_1State_a5142e18c89e1b29a846cd967dd7ae5a7}} 
+{\bfseries isinitial}
+\item 
+\mbox{\Hypertarget{classState_1_1State_a79734537721919dc94ba17701c564d11}\label{classState_1_1State_a79734537721919dc94ba17701c564d11}} 
+{\bfseries isfinal}
+\item 
+\mbox{\Hypertarget{classState_1_1State_a8d7214ddcac0728f689dbca4c354e27a}\label{classState_1_1State_a8d7214ddcac0728f689dbca4c354e27a}} 
+{\bfseries manualysized}
+\item 
+\mbox{\Hypertarget{classState_1_1State_a658cafae2cd7e412bfbf137c6ff3fe3a}\label{classState_1_1State_a658cafae2cd7e412bfbf137c6ff3fe3a}} 
+{\bfseries angleinitial}
+\item 
+\mbox{\Hypertarget{classState_1_1State_af11e1dddf7c1dc870448c6c5fa0a31e2}\label{classState_1_1State_af11e1dddf7c1dc870448c6c5fa0a31e2}} 
+{\bfseries final\+Act}
+\item 
+\mbox{\Hypertarget{classState_1_1State_aca2e06520b4d42051049fbfcbc6c55fe}\label{classState_1_1State_aca2e06520b4d42051049fbfcbc6c55fe}} 
+{\bfseries initial\+Act}
+\item 
+\mbox{\Hypertarget{classState_1_1State_aedb1334aed3030b02439b92fed7abc40}\label{classState_1_1State_aedb1334aed3030b02439b92fed7abc40}} 
+{\bfseries initial\+Point}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This is the class dedicated for the states. 
+
+\begin{DoxyVerb}A class for managing States.\end{DoxyVerb}
+ 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classState_1_1State_a06a27f926cc7be3f16e259415c34d533}\label{classState_1_1State_a06a27f926cc7be3f16e259415c34d533}} 
+\index{State.State@{State.State}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!State.State@{State.State}}
+\subsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def State.\+State.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{id = {\ttfamily 0},  }\item[{}]{label = {\ttfamily \char`\"{}\char`\"{}},  }\item[{}]{radius = {\ttfamily 50},  }\item[{}]{color = {\ttfamily (0,~0,~0)},  }\item[{}]{background\+\_\+color = {\ttfamily (255,~255,~255)},  }\item[{}]{contour = {\ttfamily \char`\"{}simple\char`\"{}},  }\item[{}]{preview = {\ttfamily False},  }\item[{}]{magnet = {\ttfamily False},  }\item[{}]{pos = {\ttfamily QPointF(0,0)} }\end{DoxyParamCaption})}
+
+
+
+Initialise the state. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \mbox{\hyperlink{classState_1_1State}{State}}\textquotesingle{}s ID \\
+\hline
+{\em label} & \mbox{\hyperlink{classState_1_1State}{State}}\textquotesingle{}s label \\
+\hline
+{\em radius} & \mbox{\hyperlink{classState_1_1State}{State}}\textquotesingle{}s radius \\
+\hline
+{\em color} & The color of the state\textquotesingle{}s edge \\
+\hline
+{\em background\+\_\+color} & The background color of the state \\
+\hline
+{\em contour} & T\+O\+DO -\/ Unused \\
+\hline
+{\em preview} & La\+Tex\textquotesingle{}s previsualisation flag \\
+\hline
+{\em magnet} & Bound or unbound the state to the grid \\
+\hline
+{\em postion} & Where to put the when we create it \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classState_1_1State_aaa419198fa3621653b526f3dab2a9354}\label{classState_1_1State_aaa419198fa3621653b526f3dab2a9354}} 
+\index{State.State@{State.State}!contextMenuEvent@{contextMenuEvent}}
+\index{contextMenuEvent@{contextMenuEvent}!State.State@{State.State}}
+\subsubsection{\texorpdfstring{contextMenuEvent()}{contextMenuEvent()}}
+{\footnotesize\ttfamily def State.\+State.\+context\+Menu\+Event (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{event }\end{DoxyParamCaption})}
+
+
+
+We want to have a menu to check on when we decide the state. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & happen when you check on a box. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classState_1_1State_a3fb5fb5e2fb8c14daedb424be4d867b3}\label{classState_1_1State_a3fb5fb5e2fb8c14daedb424be4d867b3}} 
+\index{State.State@{State.State}!distanceTo@{distanceTo}}
+\index{distanceTo@{distanceTo}!State.State@{State.State}}
+\subsubsection{\texorpdfstring{distanceTo()}{distanceTo()}}
+{\footnotesize\ttfamily def State.\+State.\+distance\+To (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{st }\end{DoxyParamCaption})}
+
+
+
+How far do I have to go to go to you? 
+
+
+\begin{DoxyParams}{Parameters}
+{\em st} & the state we need to calculate the distance to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the distance, obviously. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classState_1_1State_a3844e06a4d0a60cb9d95cb22b168705e}\label{classState_1_1State_a3844e06a4d0a60cb9d95cb22b168705e}} 
+\index{State.State@{State.State}!getBackgroundColor@{getBackgroundColor}}
+\index{getBackgroundColor@{getBackgroundColor}!State.State@{State.State}}
+\subsubsection{\texorpdfstring{getBackgroundColor()}{getBackgroundColor()}}
+{\footnotesize\ttfamily def State.\+State.\+get\+Background\+Color (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Like I said, I am colorblind! How can I know the color of the background color without this methode? 
+
+\begin{DoxyReturn}{Returns}
+the color of state\textquotesingle{}s background 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classState_1_1State_ac432a1d641421836ccec98b421b82852}\label{classState_1_1State_ac432a1d641421836ccec98b421b82852}} 
+\index{State.State@{State.State}!getColor@{getColor}}
+\index{getColor@{getColor}!State.State@{State.State}}
+\subsubsection{\texorpdfstring{getColor()}{getColor()}}
+{\footnotesize\ttfamily def State.\+State.\+get\+Color (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+I am colorblind, I cannot see the color of the state\textquotesingle{}s edge. 
+
+\begin{DoxyReturn}{Returns}
+the color of state\textquotesingle{}s edge 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classState_1_1State_afa4bdf4fa0cb0c9644bf5b2777ebc876}\label{classState_1_1State_afa4bdf4fa0cb0c9644bf5b2777ebc876}} 
+\index{State.State@{State.State}!getContour@{getContour}}
+\index{getContour@{getContour}!State.State@{State.State}}
+\subsubsection{\texorpdfstring{getContour()}{getContour()}}
+{\footnotesize\ttfamily def State.\+State.\+get\+Contour (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+T\+O\+DO -\/ Unused. 
+
+\begin{DoxyReturn}{Returns}
+the state\textquotesingle{}s contour 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classState_1_1State_af3be869fa4fa723d022ce8df0c48dec6}\label{classState_1_1State_af3be869fa4fa723d022ce8df0c48dec6}} 
+\index{State.State@{State.State}!getFinal@{getFinal}}
+\index{getFinal@{getFinal}!State.State@{State.State}}
+\subsubsection{\texorpdfstring{getFinal()}{getFinal()}}
+{\footnotesize\ttfamily def State.\+State.\+get\+Final (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Is this state a final state? 
+
+\begin{DoxyReturn}{Returns}
+a boolean to show if the state is final or not 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classState_1_1State_a1f81501729708ce030ae8a29889482d2}\label{classState_1_1State_a1f81501729708ce030ae8a29889482d2}} 
+\index{State.State@{State.State}!getLabel@{getLabel}}
+\index{getLabel@{getLabel}!State.State@{State.State}}
+\subsubsection{\texorpdfstring{getLabel()}{getLabel()}}
+{\footnotesize\ttfamily def State.\+State.\+get\+Label (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+We may need to ask for the state\textquotesingle{}s label? 
+
+\begin{DoxyReturn}{Returns}
+the state\textquotesingle{}s label 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classState_1_1State_a7d796ed9f41f65938e2aaa1e47fefb63}\label{classState_1_1State_a7d796ed9f41f65938e2aaa1e47fefb63}} 
+\index{State.State@{State.State}!getManualySized@{getManualySized}}
+\index{getManualySized@{getManualySized}!State.State@{State.State}}
+\subsubsection{\texorpdfstring{getManualySized()}{getManualySized()}}
+{\footnotesize\ttfamily def State.\+State.\+get\+Manualy\+Sized (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Is the state\textquotesingle{}s size is set mannually? 
+
+\begin{DoxyReturn}{Returns}
+a boolean to show if the state is set mannually or not 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classState_1_1State_aaf60cf2700a02509c78256855429ef8c}\label{classState_1_1State_aaf60cf2700a02509c78256855429ef8c}} 
+\index{State.State@{State.State}!getPosition@{getPosition}}
+\index{getPosition@{getPosition}!State.State@{State.State}}
+\subsubsection{\texorpdfstring{getPosition()}{getPosition()}}
+{\footnotesize\ttfamily def State.\+State.\+get\+Position (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Where is the state\textquotesingle{}s current position? 
+
+\begin{DoxyReturn}{Returns}
+the state\textquotesingle{}s current position, duh 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classState_1_1State_afa144794f02bc71f49e1521f5a47afbf}\label{classState_1_1State_afa144794f02bc71f49e1521f5a47afbf}} 
+\index{State.State@{State.State}!getRadius@{getRadius}}
+\index{getRadius@{getRadius}!State.State@{State.State}}
+\subsubsection{\texorpdfstring{getRadius()}{getRadius()}}
+{\footnotesize\ttfamily def State.\+State.\+get\+Radius (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+How big is the state? 
+
+\begin{DoxyReturn}{Returns}
+the state\textquotesingle{}s radius 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classState_1_1State_a1a7c4fbb0f8d3a14ef16726704d491be}\label{classState_1_1State_a1a7c4fbb0f8d3a14ef16726704d491be}} 
+\index{State.State@{State.State}!getTransitions@{getTransitions}}
+\index{getTransitions@{getTransitions}!State.State@{State.State}}
+\subsubsection{\texorpdfstring{getTransitions()}{getTransitions()}}
+{\footnotesize\ttfamily def State.\+State.\+get\+Transitions (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+What is a state good for if we don\textquotesingle{}t have access to its transitions? 
+
+\begin{DoxyReturn}{Returns}
+list of transition associated to the state 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classState_1_1State_a3a1fbc7eb7a9c27535d972c532a17844}\label{classState_1_1State_a3a1fbc7eb7a9c27535d972c532a17844}} 
+\index{State.State@{State.State}!keyPressEvent@{keyPressEvent}}
+\index{keyPressEvent@{keyPressEvent}!State.State@{State.State}}
+\subsubsection{\texorpdfstring{keyPressEvent()}{keyPressEvent()}}
+{\footnotesize\ttfamily def State.\+State.\+key\+Press\+Event (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{event }\end{DoxyParamCaption})}
+
+
+
+I want to change the position of initial state\textquotesingle{}s arrow. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & happen when you press a direction key \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classState_1_1State_af8dae223eec1344656a82451fb7fdd98}\label{classState_1_1State_af8dae223eec1344656a82451fb7fdd98}} 
+\index{State.State@{State.State}!magnetized@{magnetized}}
+\index{magnetized@{magnetized}!State.State@{State.State}}
+\subsubsection{\texorpdfstring{magnetized()}{magnetized()}}
+{\footnotesize\ttfamily def State.\+State.\+magnetized (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{magnet,  }\item[{}]{width,  }\item[{}]{height }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em magnet} & \\
+\hline
+{\em width} & \\
+\hline
+{\em height} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classState_1_1State_a9df53dcbf226c8ccc80ee242b63ab0ad}\label{classState_1_1State_a9df53dcbf226c8ccc80ee242b63ab0ad}} 
+\index{State.State@{State.State}!mouseReleaseEvent@{mouseReleaseEvent}}
+\index{mouseReleaseEvent@{mouseReleaseEvent}!State.State@{State.State}}
+\subsubsection{\texorpdfstring{mouseReleaseEvent()}{mouseReleaseEvent()}}
+{\footnotesize\ttfamily def State.\+State.\+mouse\+Release\+Event (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{event }\end{DoxyParamCaption})}
+
+
+
+Release the mouse click lead to magnetize the state if the magnetized flag is up. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & happen when you release the mouse click. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classState_1_1State_af8a2d01341055bd8d0e56f5a45b81bb7}\label{classState_1_1State_af8a2d01341055bd8d0e56f5a45b81bb7}} 
+\index{State.State@{State.State}!paint@{paint}}
+\index{paint@{paint}!State.State@{State.State}}
+\subsubsection{\texorpdfstring{paint()}{paint()}}
+{\footnotesize\ttfamily def State.\+State.\+paint (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{painter,  }\item[{}]{option,  }\item[{}]{widget }\end{DoxyParamCaption})}
+
+
+
+A state is born. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em painter} & A tool to draw the state \\
+\hline
+{\em option} & \mbox{\hyperlink{classState_1_1State}{State}}\textquotesingle{}s style option \\
+\hline
+{\em widget} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classState_1_1State_a7777063485195d1b34fd4ba6a7848ea5}\label{classState_1_1State_a7777063485195d1b34fd4ba6a7848ea5}} 
+\index{State.State@{State.State}!setBackgroundColor@{setBackgroundColor}}
+\index{setBackgroundColor@{setBackgroundColor}!State.State@{State.State}}
+\subsubsection{\texorpdfstring{setBackgroundColor()}{setBackgroundColor()}}
+{\footnotesize\ttfamily def State.\+State.\+set\+Background\+Color (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{color = {\ttfamily (0,~0,~0)} }\end{DoxyParamCaption})}
+
+
+
+Modify the state\textquotesingle{}s background color. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em color} & new state\textquotesingle{}s background color \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classState_1_1State_a9ae69a0a04376e2210c2ae2bcceb9e9f}\label{classState_1_1State_a9ae69a0a04376e2210c2ae2bcceb9e9f}} 
+\index{State.State@{State.State}!setColor@{setColor}}
+\index{setColor@{setColor}!State.State@{State.State}}
+\subsubsection{\texorpdfstring{setColor()}{setColor()}}
+{\footnotesize\ttfamily def State.\+State.\+set\+Color (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{color = {\ttfamily (0,~0,~0)} }\end{DoxyParamCaption})}
+
+
+
+Modify the state\textquotesingle{}s color. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em color} & new state\textquotesingle{}s color \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classState_1_1State_a1957da99a57d165cd3275ffc38082293}\label{classState_1_1State_a1957da99a57d165cd3275ffc38082293}} 
+\index{State.State@{State.State}!setContour@{setContour}}
+\index{setContour@{setContour}!State.State@{State.State}}
+\subsubsection{\texorpdfstring{setContour()}{setContour()}}
+{\footnotesize\ttfamily def State.\+State.\+set\+Contour (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{contour = {\ttfamily \char`\"{}simple\char`\"{}} }\end{DoxyParamCaption})}
+
+
+
+T\+O\+DO -\/ Unused. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em contour} & new state\textquotesingle{}s contour \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classState_1_1State_a4cf3c389c5240bf94c31ea95567c8ccd}\label{classState_1_1State_a4cf3c389c5240bf94c31ea95567c8ccd}} 
+\index{State.State@{State.State}!setLabel@{setLabel}}
+\index{setLabel@{setLabel}!State.State@{State.State}}
+\subsubsection{\texorpdfstring{setLabel()}{setLabel()}}
+{\footnotesize\ttfamily def State.\+State.\+set\+Label (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{label = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption})}
+
+
+
+Modify the state\textquotesingle{}s label. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em label} & state\textquotesingle{}s new label \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classState_1_1State_ab03eca69f6193adba38e0d0c975f829a}\label{classState_1_1State_ab03eca69f6193adba38e0d0c975f829a}} 
+\index{State.State@{State.State}!setPosition@{setPosition}}
+\index{setPosition@{setPosition}!State.State@{State.State}}
+\subsubsection{\texorpdfstring{setPosition()}{setPosition()}}
+{\footnotesize\ttfamily def State.\+State.\+set\+Position (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{x,  }\item[{}]{y }\end{DoxyParamCaption})}
+
+
+
+Modify the state\textquotesingle{}s position. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em position} & new state\textquotesingle{}s position \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classState_1_1State_adc1a8f9b4fbb09c6c3b7f410d06adf42}\label{classState_1_1State_adc1a8f9b4fbb09c6c3b7f410d06adf42}} 
+\index{State.State@{State.State}!setRadius@{setRadius}}
+\index{setRadius@{setRadius}!State.State@{State.State}}
+\subsubsection{\texorpdfstring{setRadius()}{setRadius()}}
+{\footnotesize\ttfamily def State.\+State.\+set\+Radius (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{radius = {\ttfamily 50} }\end{DoxyParamCaption})}
+
+
+
+Modify the state\textquotesingle{}s radius. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em radius} & new state\textquotesingle{}s radius \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Class/State.\+py\end{DoxyCompactItemize}

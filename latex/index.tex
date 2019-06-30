@@ -1,0 +1,43 @@
+Welcome to project O\+Tomate\+Mozarella. Requirements can be found at the end of this document.
+
+Py\+Qt5 classes documentation \+: \href{http://pyqt.sourceforge.net/Docs/PyQt4/classes.html}{\texttt{ http\+://pyqt.\+sourceforge.\+net/\+Docs/\+Py\+Qt4/classes.\+html}}
+
+T\+O\+DO \+:
+\begin{DoxyItemize}
+\item Genetic Algorithm\+:
+\begin{DoxyItemize}
+\item Score calculation need improvements
+\end{DoxyItemize}
+\end{DoxyItemize}
+
+I\+S\+S\+U\+E\+S/\+B\+U\+GS\+:
+\begin{DoxyItemize}
+\item Delete is still broken, but works about 95\% of the time. I don\textquotesingle{}t know how to fix it.
+\item Genetic Algorithm\+:
+\begin{DoxyItemize}
+\item Crash when you use it too many times. Maybe a problem with reset
+\end{DoxyItemize}
+\item pasted elements are not magnetized (only destination states, but it works when you deselect)
+\item The initial state arrow position is not saved
+\item The Radius is not exported to La\+TeX
+\end{DoxyItemize}
+
+R\+E\+Q\+U\+I\+R\+E\+M\+E\+N\+TS\+:
+
+
+\begin{DoxyItemize}
+\item Basics \+:
+\begin{DoxyItemize}
+\item Python 3
+\item Py\+Q\+T5
+\item sympy \+: on arch linux \+: pacman -\/S texlive-\/most
+\item La\+Tex compiler
+\item Not sure if it\textquotesingle{}s bundled with python but num\+Py is used for random sampling purposes.
+\end{DoxyItemize}
+\item Used by the AI \+:
+\begin{DoxyItemize}
+\item matplotlib
+\item keras ?
+\item tensorflow (available for Windows, Mac\+Os and Ubuntu with pip) /!\textbackslash{} For arch linux -\/$>$ install package python-\/tensorflow with pacman /!\textbackslash{} 
+\end{DoxyItemize}
+\end{DoxyItemize}

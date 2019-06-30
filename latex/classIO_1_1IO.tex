@@ -1,0 +1,209 @@
+\hypertarget{classIO_1_1IO}{}\section{I\+O.\+IO Class Reference}
+\label{classIO_1_1IO}\index{IO.IO@{IO.IO}}
+
+
+Class which handle Input and Output.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classIO_1_1IO_a0de24891646dad0069808df1693d4a0a}\label{classIO_1_1IO_a0de24891646dad0069808df1693d4a0a}} 
+def \mbox{\hyperlink{classIO_1_1IO_a0de24891646dad0069808df1693d4a0a}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, drawer)
+\begin{DoxyCompactList}\small\item\em Init stuff. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classIO_1_1IO_ae3b4bcb49eeb2b09deeb5e79c53e504f}{load}} (self, input\+\_\+file\+\_\+name)
+\begin{DoxyCompactList}\small\item\em Load a project and fill the current drawer. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classIO_1_1IO_ab4e2498c5e6baefd2d51950edf0bc33a}{save}} (self, output\+\_\+file\+\_\+name, verbose)
+\begin{DoxyCompactList}\small\item\em Save a project to a file. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classIO_1_1IO_a52707967c2e703500f0a5027654151e8}\label{classIO_1_1IO_a52707967c2e703500f0a5027654151e8}} 
+def {\bfseries to\+\_\+deg} (self, a)
+\item 
+\mbox{\Hypertarget{classIO_1_1IO_ab0a430a9ea6b889d1645c327b55a17c4}\label{classIO_1_1IO_ab0a430a9ea6b889d1645c327b55a17c4}} 
+def {\bfseries get\+\_\+angle} (self, A, B, dI)
+\item 
+def \mbox{\hyperlink{classIO_1_1IO_a853df2a0f17524cce2b325ad5d865158}{export}} (self, latex\+\_\+file\+\_\+name)
+\item 
+def \mbox{\hyperlink{classIO_1_1IO_a556de6d0c4bbf2c5d2891607fe569efc}{json\+To\+State}} (self, state\+\_\+json)
+\begin{DoxyCompactList}\small\item\em Convert a json\+State\+Structure to a real state. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classIO_1_1IO_a18ce7cd8a1b80106a9ecc5d1e6b55cab}{json\+To\+Transition}} (self, transition\+\_\+json)
+\begin{DoxyCompactList}\small\item\em Convert a json\+Transition\+Structure to a real Transition. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classIO_1_1IO_a69ce4e417f3e5d3be96be4915bb59b9a}{state\+To\+Json}} (self, state)
+\begin{DoxyCompactList}\small\item\em Convert a State object to json. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classIO_1_1IO_a76a03d86d935add42da0a49f6ff5c77f}{transition\+To\+Json}} (self, transition)
+\begin{DoxyCompactList}\small\item\em Convert a Transition object to json. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classIO_1_1IO_a93e10f1b6d439ea1d12ea3568d84cc5b}{state\+Is\+In\+Drawer}} (self, state)
+\begin{DoxyCompactList}\small\item\em Whether the state is in the drawer. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classIO_1_1IO_a1a894bd977cbe82c91a6291b1312e755}{compare\+States}} (self, state1, state2)
+\begin{DoxyCompactList}\small\item\em Check if two states are the same. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classIO_1_1IO_a36a4e689edd751185fcaf0a50a8d8c05}\label{classIO_1_1IO_a36a4e689edd751185fcaf0a50a8d8c05}} 
+{\bfseries drawer}
+\item 
+\mbox{\Hypertarget{classIO_1_1IO_a13f87ef2974dfa0105f1d620f60947e2}\label{classIO_1_1IO_a13f87ef2974dfa0105f1d620f60947e2}} 
+{\bfseries formats}
+\item 
+\mbox{\Hypertarget{classIO_1_1IO_a3d96e44bc68635ef60cfbed47938a39d}\label{classIO_1_1IO_a3d96e44bc68635ef60cfbed47938a39d}} 
+{\bfseries format\+\_\+extension}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class which handle Input and Output. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classIO_1_1IO_a1a894bd977cbe82c91a6291b1312e755}\label{classIO_1_1IO_a1a894bd977cbe82c91a6291b1312e755}} 
+\index{IO.IO@{IO.IO}!compareStates@{compareStates}}
+\index{compareStates@{compareStates}!IO.IO@{IO.IO}}
+\subsubsection{\texorpdfstring{compareStates()}{compareStates()}}
+{\footnotesize\ttfamily def I\+O.\+I\+O.\+compare\+States (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{state1,  }\item[{}]{state2 }\end{DoxyParamCaption})}
+
+
+
+Check if two states are the same. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em state1} & The first state1 \\
+\hline
+{\em state2} & The first state2 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if state1 = state2 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classIO_1_1IO_a853df2a0f17524cce2b325ad5d865158}\label{classIO_1_1IO_a853df2a0f17524cce2b325ad5d865158}} 
+\index{IO.IO@{IO.IO}!export@{export}}
+\index{export@{export}!IO.IO@{IO.IO}}
+\subsubsection{\texorpdfstring{export()}{export()}}
+{\footnotesize\ttfamily def I\+O.\+I\+O.\+export (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{latex\+\_\+file\+\_\+name }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Export project to LaTex\end{DoxyVerb}
+ \mbox{\Hypertarget{classIO_1_1IO_a556de6d0c4bbf2c5d2891607fe569efc}\label{classIO_1_1IO_a556de6d0c4bbf2c5d2891607fe569efc}} 
+\index{IO.IO@{IO.IO}!jsonToState@{jsonToState}}
+\index{jsonToState@{jsonToState}!IO.IO@{IO.IO}}
+\subsubsection{\texorpdfstring{jsonToState()}{jsonToState()}}
+{\footnotesize\ttfamily def I\+O.\+I\+O.\+json\+To\+State (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{state\+\_\+json }\end{DoxyParamCaption})}
+
+
+
+Convert a json\+State\+Structure to a real state. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em state\+\_\+json} & The json of the state to create \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The new State 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classIO_1_1IO_a18ce7cd8a1b80106a9ecc5d1e6b55cab}\label{classIO_1_1IO_a18ce7cd8a1b80106a9ecc5d1e6b55cab}} 
+\index{IO.IO@{IO.IO}!jsonToTransition@{jsonToTransition}}
+\index{jsonToTransition@{jsonToTransition}!IO.IO@{IO.IO}}
+\subsubsection{\texorpdfstring{jsonToTransition()}{jsonToTransition()}}
+{\footnotesize\ttfamily def I\+O.\+I\+O.\+json\+To\+Transition (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{transition\+\_\+json }\end{DoxyParamCaption})}
+
+
+
+Convert a json\+Transition\+Structure to a real Transition. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em transition\+\_\+json} & The json of the Transition to create \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The new Transition 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classIO_1_1IO_ae3b4bcb49eeb2b09deeb5e79c53e504f}\label{classIO_1_1IO_ae3b4bcb49eeb2b09deeb5e79c53e504f}} 
+\index{IO.IO@{IO.IO}!load@{load}}
+\index{load@{load}!IO.IO@{IO.IO}}
+\subsubsection{\texorpdfstring{load()}{load()}}
+{\footnotesize\ttfamily def I\+O.\+I\+O.\+load (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{input\+\_\+file\+\_\+name }\end{DoxyParamCaption})}
+
+
+
+Load a project and fill the current drawer. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em input\+\_\+file\+\_\+name} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classIO_1_1IO_ab4e2498c5e6baefd2d51950edf0bc33a}\label{classIO_1_1IO_ab4e2498c5e6baefd2d51950edf0bc33a}} 
+\index{IO.IO@{IO.IO}!save@{save}}
+\index{save@{save}!IO.IO@{IO.IO}}
+\subsubsection{\texorpdfstring{save()}{save()}}
+{\footnotesize\ttfamily def I\+O.\+I\+O.\+save (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{output\+\_\+file\+\_\+name,  }\item[{}]{verbose }\end{DoxyParamCaption})}
+
+
+
+Save a project to a file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em output\+\_\+file\+\_\+name} & The path of the file to save the project \\
+\hline
+{\em verbose} & Do you want to have all details ? \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classIO_1_1IO_a93e10f1b6d439ea1d12ea3568d84cc5b}\label{classIO_1_1IO_a93e10f1b6d439ea1d12ea3568d84cc5b}} 
+\index{IO.IO@{IO.IO}!stateIsInDrawer@{stateIsInDrawer}}
+\index{stateIsInDrawer@{stateIsInDrawer}!IO.IO@{IO.IO}}
+\subsubsection{\texorpdfstring{stateIsInDrawer()}{stateIsInDrawer()}}
+{\footnotesize\ttfamily def I\+O.\+I\+O.\+state\+Is\+In\+Drawer (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{state }\end{DoxyParamCaption})}
+
+
+
+Whether the state is in the drawer. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em state} & The state to check \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+if the state is in the drawer 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classIO_1_1IO_a69ce4e417f3e5d3be96be4915bb59b9a}\label{classIO_1_1IO_a69ce4e417f3e5d3be96be4915bb59b9a}} 
+\index{IO.IO@{IO.IO}!stateToJson@{stateToJson}}
+\index{stateToJson@{stateToJson}!IO.IO@{IO.IO}}
+\subsubsection{\texorpdfstring{stateToJson()}{stateToJson()}}
+{\footnotesize\ttfamily def I\+O.\+I\+O.\+state\+To\+Json (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{state }\end{DoxyParamCaption})}
+
+
+
+Convert a State object to json. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em state} & State to Convert \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The Json of the State 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classIO_1_1IO_a76a03d86d935add42da0a49f6ff5c77f}\label{classIO_1_1IO_a76a03d86d935add42da0a49f6ff5c77f}} 
+\index{IO.IO@{IO.IO}!transitionToJson@{transitionToJson}}
+\index{transitionToJson@{transitionToJson}!IO.IO@{IO.IO}}
+\subsubsection{\texorpdfstring{transitionToJson()}{transitionToJson()}}
+{\footnotesize\ttfamily def I\+O.\+I\+O.\+transition\+To\+Json (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{transition }\end{DoxyParamCaption})}
+
+
+
+Convert a Transition object to json. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em state} & Transition to Convert \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The Json of the Transition 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Class/I\+O.\+py\end{DoxyCompactItemize}
